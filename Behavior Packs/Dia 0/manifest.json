@@ -6,10 +6,10 @@
 		],
 		"generated_with": {
 			"bridge": [
-				"2.7.13"
+				"2.7.44"
 			],
 			"dash": [
-				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+				"0.11.7"
 			]
 		}
 	},
@@ -61,23 +61,7 @@
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-gametest",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-ui",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-admin",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-net",
-			"version": "1.0.0-beta"
+			"version": "2.0.0-beta"
 		}
 	]
 }

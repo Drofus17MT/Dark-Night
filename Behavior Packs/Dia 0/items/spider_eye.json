@@ -5,27 +5,26 @@
 			"identifier": "minecraft:spider_eye"
 		},
 		"components": {
-			"components": {
-				"minecraft:use_duration": 1,
-				"minecraft:food": {
-					"effects": [
-						{
-							"name": "blindness",
-							"duration": 60,
-							"chance": 1
-						},
-						{
-							"name": "nausea",
-							"duration": 60,
-							"chance": 1
-						},
-						{
-							"name": "slowness",
-							"duration": 60,
-							"chance": 1
-						}
-					]
-				}
+			"minecraft:use_duration": 1,
+			"minecraft:food": {
+				"effects": [
+					{
+						"name": "blindness",
+						"duration": 60,
+						"chance": 1
+					},
+					{
+						"name": "nausea",
+						"duration": 60,
+						"chance": 1
+					},
+					{
+						"name": "slowness",
+						"duration": 60,
+						"chance": 1
+					}
+				]
 			}
 		}
 	}
+}
