@@ -1,9 +1,0 @@
-{
-	"resource_pack_name": "DARK NIGHT",
-	"texture_name": "atlas.items",
-	"texture_data": {
-		"dn_light_sword": {
-			"textures": "textures/items/dn_light_sword"
-		}
-	}
-}
