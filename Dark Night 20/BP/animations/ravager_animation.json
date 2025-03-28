@@ -1,0 +1,17 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.ravager": {
+			"loop": true,
+			"animation_length": 0.3,
+			"timeline": {
+				"0.0": [
+					"/execute at @e[type=ravager] run summon dn:darkness_ravager"
+				],
+				"0.1": [
+					"/kill @e[type=ravager]"
+				]
+			}
+		}
+	}
+}

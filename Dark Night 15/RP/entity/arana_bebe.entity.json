@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dn:arana_bebe",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/arana_bebe"
+			},
+			"geometry": {
+				"default": "geometry.arana_bebe"
+			},
+			"scripts": {
+				"scale": "0.7"
+			},
+			"animations": {
+				"default_leg_pose": "animation.arana_bebe.default_leg_pose",
+				"look_at_target": "animation.spider.look_at_target",
+				"walk": "animation.arana_bebe.walk"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.spider.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.spider"
+			],
+			"spawn_egg": {
+				"base_color": "#11437f",
+				"overlay_color": "#000033"
+			}
+		}
+	}
+}

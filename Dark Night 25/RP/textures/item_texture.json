@@ -1,0 +1,42 @@
+{
+	"resource_pack_name": "DARK NIGHT",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"dn_light_sword": {
+			"textures": "textures/items/dn_light_sword"
+		},
+		"dn_armadura_de_luz_helmet": {
+			"textures": "textures/items/armadura_de_luz_helmet"
+		},
+		"dn_armadura_de_luz_chestplate": {
+			"textures": "textures/items/armadura_de_luz_chestplate"
+		},
+		"dn_armadura_de_luz_leggings": {
+			"textures": "textures/items/armadura_de_luz_leggings"
+		},
+		"dn_armadura_de_luz_boots": {
+			"textures": "textures/items/armadura_de_luz_boots"
+		},
+		"dn_protector_de_slots": {
+			"textures": "textures/items/protector_de_slots"
+		},
+		"dn_slot_block": {
+			"textures": "textures/items/slot_block"
+		},
+		"dn_reliquia_de_magma": {
+			"textures": "textures/items/reliquia_de_magma"
+		},
+		"dn_darkness_armor_helmet": {
+			"textures": "textures/items/darkness_armor_helmet"
+		},
+		"dn_darkness_armor_chestplate": {
+			"textures": "textures/items/darkness_armor_chestplate"
+		},
+		"dn_darkness_armor_leggings": {
+			"textures": "textures/items/darkness_armor_leggings"
+		},
+		"dn_darkness_armor_boots": {
+			"textures": "textures/items/darkness_armor_boots"
+		}
+	}
+}

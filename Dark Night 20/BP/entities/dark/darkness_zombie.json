@@ -1,0 +1,510 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dn:zombie_darkness",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"dn:doubled_mob": {
+				"minecraft:spawn_entity": {
+					"entities": [
+						{
+							"spawn_entity": "dn:zombie_darkness",
+							"single_use": true,
+							"num_to_spawn": 2,
+							"min_wait_time": 0,
+							"max_wait_time": 0
+						}
+					]
+				}
+			},
+			"minecraft:zombie_adult": {
+				"minecraft:experience_reward": {
+					"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+				},
+				"minecraft:movement": {
+					"value": 0.45
+				},
+				"minecraft:behavior.mount_pathing": {
+					"priority": 2,
+					"speed_multiplier": 1.25,
+					"target_dist": 0.0,
+					"track_target": true
+				}
+			}
+		},
+		"components": {
+			"minecraft:movement": {
+				"value": 0.4
+			},
+			"minecraft:on_hurt": {
+				"event": "dn:zombi_dano_player"
+			},
+			"minecraft:break_blocks": {
+				"breakable_blocks": [
+					"mangrove_planks",
+					"mangrove_log",
+					"stripped_mangrove_log",
+					"raw_copper_block",
+					"raw_gold_block",
+					"raw_iron_block",
+					"calcite",
+					"chiseled_deepslate",
+					"cobbled_deepslate",
+					"cobbled_deepslate_slab",
+					"cobbled_deepslate_stairs",
+					"cobbled_deepslate_wall",
+					"copper_ore",
+					"cracked_deepslate_bricks",
+					"cracked_deepslate_tiles",
+					"deepslate",
+					"deepslate_brick_slab",
+					"deepslate_brick_stairs",
+					"deepslate_brick_wall",
+					"deepslate_bricks",
+					"deepslate_coal_ore",
+					"deepslate_copper_ore",
+					"deepslate_diamond_ore",
+					"deepslate_emerald_ore",
+					"deepslate_gold_ore",
+					"deepslate_iron_ore",
+					"deepslate_lapis_ore",
+					"deepslate_redstone_ore",
+					"deepslate_tile_slab",
+					"deepslate_tile_stairs",
+					"deepslate_tile_wall",
+					"deepslate_tiles",
+					"dripstone_block",
+					"infested_deepslate",
+					"polished_deepslate",
+					"polished_deepslate_slab",
+					"polished_deepslate_stairs",
+					"polished_deepslate_wall",
+					"smooth_basalt",
+					"tinted_glass",
+					"tuff",
+					"acacia_button",
+					"acacia_door",
+					"acacia_fence_gate",
+					"acacia_pressure_plate",
+					"acacia_stairs",
+					"acacia_trapdoor",
+					"ancient_debris",
+					"andesite_stairs",
+					"basalt",
+					"birch_button",
+					"birch_door",
+					"birch_fence_gate",
+					"birch_pressure_plate",
+					"birch_stairs",
+					"birch_trapdoor",
+					"blackstone",
+					"blackstone_slab",
+					"blackstone_stairs",
+					"blackstone_wall",
+					"bookshelf",
+					"brick_block",
+					"brick_stairs",
+					"chiseled_nether_bricks",
+					"chiseled_polished_blackstone",
+					"coal_block",
+					"coal_ore",
+					"cobblestone",
+					"cobblestone_wall",
+					"cracked_nether_bricks",
+					"cracked_polished_blackstone_bricks",
+					"crafting_table",
+					"crimson_button",
+					"crimson_door",
+					"crimson_fence",
+					"crimson_fence_gate",
+					"crimson_fungus",
+					"crimson_hyphae",
+					"crimson_nylium",
+					"crimson_pressure_plate",
+					"crimson_roots",
+					"crimson_slab",
+					"crimson_stairs",
+					"crimson_stem",
+					"crimson_trapdoor",
+					"crying_obsidian",
+					"dark_oak_button",
+					"dark_oak_door",
+					"dark_oak_fence_gate",
+					"dark_oak_pressure_plate",
+					"dark_oak_stairs",
+					"dark_oak_trapdoor",
+					"diamond_ore",
+					"emerald_ore",
+					"monster_egg",
+					"oak_fence",
+					"spruce_fence",
+					"birch_fence",
+					"jungle_fence",
+					"acacia_fence",
+					"dark_oak_fence",
+					"fence_gate",
+					"gilded_blackstone",
+					"gold_ore",
+					"iron_ore",
+					"jungle_button",
+					"jungle_door",
+					"jungle_fence_gate",
+					"jungle_pressure_plate",
+					"jungle_stairs",
+					"jungle_trapdoor",
+					"ladder",
+					"lapis_ore",
+					"oak_log",
+					"spruce_log",
+					"birch_log",
+					"jungle_log",
+					"acacia_log",
+					"dark_oak_log",
+					"mossy_cobblestone",
+					"mossy_cobblestone_stairs",
+					"mossy_stone_brick_stairs",
+					"nether_brick",
+					"nether_brick_fence",
+					"nether_brick_stairs",
+					"normal_stone_stairs",
+					"oak_stairs",
+					"obsidian",
+					"polished_andesite_stairs",
+					"polished_basalt",
+					"polished_blackstone",
+					"polished_blackstone_brick_slab",
+					"polished_blackstone_brick_stairs",
+					"polished_blackstone_brick_wall",
+					"polished_blackstone_bricks",
+					"polished_blackstone_button",
+					"polished_blackstone_pressure_plate",
+					"polished_blackstone_slab",
+					"polished_blackstone_stairs",
+					"polished_blackstone_wall",
+					"polished_diorite_stairs",
+					"polished_granite_stairs",
+					"quartz_block",
+					"quartz_bricks",
+					"quartz_stairs",
+					"red_nether_brick",
+					"red_nether_brick_stairs",
+					"red_sandstone",
+					"red_sandstone_stairs",
+					"sandstone",
+					"sandstone_stairs",
+					"smooth_quartz_stairs",
+					"smooth_red_sandstone_stairs",
+					"smooth_sandstone_stairs",
+					"smooth_stone",
+					"spruce_button",
+					"spruce_door",
+					"spruce_fence_gate",
+					"spruce_pressure_plate",
+					"spruce_stairs",
+					"spruce_trapdoor",
+					"stone",
+					"stone_brick_stairs",
+					"stone_button",
+					"stone_pressure_plate",
+					"stone_block_slab",
+					"stone_block_slab2",
+					"stone_block_slab3",
+					"stone_block_slab4",
+					"stone_stairs",
+					"stonebrick",
+					"stripped_acacia_log",
+					"stripped_birch_log",
+					"stripped_crimson_hyphae",
+					"stripped_crimson_stem",
+					"stripped_dark_oak_log",
+					"stripped_jungle_log",
+					"stripped_oak_log",
+					"stripped_spruce_log",
+					"stripped_warped_hyphae",
+					"stripped_warped_stem",
+					"warped_button",
+					"warped_door",
+					"warped_fence",
+					"warped_fence_gate",
+					"warped_hyphae",
+					"warped_nylium",
+					"warped_planks",
+					"warped_pressure_plate",
+					"warped_slab",
+					"warped_stairs",
+					"warped_stem",
+					"warped_trapdoor",
+					"warped_wart_block",
+					"wood",
+					"wooden_button",
+					"wooden_door",
+					"wooden_pressure_plate",
+					"wooden_slab",
+					"standing_sign",
+					"spruce_standing_sign",
+					"birch_standing_sign",
+					"jungle_standing_sign",
+					"acacia_standing_sign",
+					"darkoak_standing_sign",
+					"mangrove_standing_sign",
+					"cherry_standing_sign",
+					"bamboo_standing_sign",
+					"crimson_standing_sign",
+					"warped_standing_sign",
+					"wall_sign",
+					"spruce_wall_sign",
+					"birch_wall_sign",
+					"jungle_wall_sign",
+					"acacia_wall_sign",
+					"darkoak_wall_sign",
+					"mangrove_wall_sign",
+					"cherry_wall_sign",
+					"bamboo_wall_sign",
+					"crimson_wall_sign",
+					"warped_wall_sign",
+					"oak_hanging_sign",
+					"spruce_hanging_sign",
+					"birch_hanging_sign",
+					"jungle_hanging_sign",
+					"acacia_hanging_sign",
+					"dark_oak_hanging_sign",
+					"mangrove_hanging_sign",
+					"cherry_hanging_sign",
+					"bamboo_hanging_sign",
+					"crimson_hanging_sign",
+					"warped_hanging_sign",
+					"mangrove_fence",
+					"cherry_fence",
+					"bamboo_fence",
+					"bamboo_fence_gate",
+					"cherry_fence_gate",
+					"mangrove_fence_gate",
+					"bamboo_door",
+					"cherry_door",
+					"mangrove_door",
+					"bamboo_trapdoor",
+					"mangrove_trapdoor",
+					"bamboo_mosaic_slab",
+					"bamboo_slab",
+					"cherry_slab",
+					"mangrove_slab",
+					"mangrove_stairs",
+					"cherry_stairs",
+					"bamboo_stairs",
+					"bamboo_mosaic_stairs",
+					"mud_brick_stairs",
+					"stripped_cherry_log",
+					"cherry_log",
+					"stripped_cherry_wood",
+					"stripped_mangrove_wood",
+					"mangrove_wood",
+					"cherry_wood",
+					"bamboo_block",
+					"stripped_bamboo_block",
+					"mangrove_button",
+					"cherry_button",
+					"bamboo_button",
+					"chiseled_bookshelf",
+					"bamboo_planks",
+					"cherry_planks",
+					"bamboo_sapling",
+					"cherry_pressure_plate",
+					"bamboo_pressure_plate"
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": [
+					"zombie",
+					"undead",
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:equip_item": {},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:burns_in_daylight": {},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 60,
+				"max": 60
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:attack": {
+				"damage": 30
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.equip_item": {
+				"priority": 2
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 3
+			},
+			"minecraft:behavior.stomp_turtle_egg": {
+				"priority": 4,
+				"speed_multiplier": 1,
+				"search_range": 10,
+				"search_height": 2,
+				"goal_radius": 1.14,
+				"interval": 20
+			},
+			"minecraft:behavior.pickup_items": {
+				"priority": 6,
+				"max_dist": 3,
+				"goal_radius": 2,
+				"speed_multiplier": 1.0,
+				"pickup_based_on_chance": true,
+				"can_pickup_any_item": true,
+				"excluded_items": [
+					"minecraft:glow_ink_sac"
+				]
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"within_radius": 25.0,
+				"must_see_forget_duration": 17.0,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "snowgolem"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "irongolem"
+								}
+							]
+						},
+						"max_dist": 35
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "villager"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "wandering_trader"
+								}
+							]
+						},
+						"max_dist": 35,
+						"must_see": false
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "baby_turtle"
+								},
+								{
+									"test": "in_water",
+									"subject": "other",
+									"operator": "!=",
+									"value": true
+								}
+							]
+						},
+						"max_dist": 35
+					}
+				]
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"dn:zombi_dano_player": {
+				"run_command": {
+					"command": [
+						"effect @s[m=s] instant_damage 1 4"
+					]
+				}
+			},
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"randomize": [
+							{
+								"weight": 380,
+								"remove": {},
+								"add": {
+									"component_groups": [
+										"minecraft:zombie_adult",
+										"dn:doubled_mob"
+									]
+								}
+							}
+						]
+					}
+				]
+			},
+			"minecraft:as_adult": {
+				"add": {
+					"component_groups": [
+						"minecraft:zombie_adult"
+					]
+				}
+			}
+		}
+	}
+}

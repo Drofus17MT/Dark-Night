@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dn:arana_reina",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/arana_reina"
+			},
+			"geometry": {
+				"default": "geometry.spider_reina"
+			},
+			"animations": {
+				"default_leg_pose": "animation.arana_reina.idle",
+				"look_at_target": "animation.arana_reina.walk",
+				"walk": "animation.arana_reina.sexoanalwuuuuuuuuuuu"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.spider.move"
+				}
+			],
+			"render_controllers": [
+				"controller.render.spider"
+			],
+			"spawn_egg": {
+				"base_color": "#293316",
+				"overlay_color": "#e8ffa8"
+			}
+		}
+	}
+}

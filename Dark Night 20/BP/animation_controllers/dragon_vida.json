@@ -1,0 +1,117 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.dragon_inicio": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"total": "query.health < 5000"
+						}
+					]
+				},
+				"total": {
+					"on_entry": [
+						"/title @a title §tBIENVENIDO",
+						"/effect @a[m=s] darkness 15 255",
+						"/tag @a[m=s] add tercerafases",
+						"/tag @e[type=ender_dragon] add tercerafasesdg"
+					]
+				}
+			}
+		},
+		"controller.animation.dragon_tercera": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"total": "query.health < 4000"
+						}
+					]
+				},
+				"total": {
+					"on_entry": [
+						"/tag @a[m=s] add tercerafases",
+						"/tag @e[type=ender_dragon] add tercerafasesdg",
+						"/title @a title §tPRIMERA FASE",
+						"/effect @a[m=s] darkness 20 255"
+					]
+				}
+			}
+		},
+		"controller.animation.dragon_segunda": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"total": "query.health < 2000"
+						}
+					]
+				},
+				"total": {
+					"on_entry": [
+						"/tag @a[m=s] add segundafases",
+						"/tag @e[type=ender_dragon] add segundafasesdg",
+						"/title @a title §tSEGUNDA FASE",
+						"/effect @a[m=s] darkness 45 255"
+					]
+				}
+			}
+		},
+		"controller.animation.dragon_primera": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"total": "query.health < 1000"
+						}
+					]
+				},
+				"total": {
+					"on_entry": [
+						"/tag @a[m=s] add primerafases",
+						"/tag @e[type=ender_dragon] add primerafasesdg",
+						"/title @a title §tTERCERA FASE",
+						"/effect @a[m=s] darkness 45 255",
+						"/execute at @a[m=s] run fill ~1 ~-1 ~1 ~-1 ~ ~-1 lava"
+					]
+				}
+			}
+		},
+		"controller.animation.dragon_extra_xd": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"tersera": "query.health < 500"
+						}
+					]
+				},
+				"tersera": {
+					"on_entry": [
+						"/title @a title §1MUERE",
+						"/effect @a[m=s] slowness 45 3",
+						"/execute at @a run fill ~1 ~-1 ~1 ~-1 ~ ~-1 lava"
+					]
+				}
+			}
+		},
+		"controller.animation.dragon_fin": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"tersera": "query.health < 100"
+						}
+					]
+				},
+				"tersera": {
+					"on_entry": [
+						"/execute at @a run summon lightning_bolt",
+						"/effect @a levitation 15 3"
+					]
+				}
+			}
+		}
+	}
+}

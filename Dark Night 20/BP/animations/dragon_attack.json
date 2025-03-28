@@ -1,0 +1,113 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.trueno": {
+			"loop": true,
+			"animation_length": 200.1,
+			"timeline": {
+				"197.0": [
+					"/tag @r[tag=!gg] add gg",
+					"/tag @r[tag=segundafases,tag=primerafases,tag=!gg] add gg",
+					"/tag @r[tag=primerafases,tag=!gg] add gg",
+					"/tag @r[tag=primerafases,tag=!gg] add gg",
+					"/tag @r[tag=primerafases,tag=!gg] add gg",
+					"/tag @r[tag=primerafases,tag=!gg] add gg"
+				],
+				"198.0": [
+					"/execute at @a[tag=gg] run summon lightning_bolt",
+					"/effect @a[tag=gg] levitation 30 3",
+					"/effect @a[tag=gg] fatal_poison 30 5",
+					"/effect @a[tag=gg] instant_damage 30 0",
+					"/effect @a[tag=gg] wither 30 3"
+				],
+				"199.0": [
+					"/tag @a remove gg"
+				]
+			}
+		},
+		"animation.warden_arana": {
+			"loop": true,
+			"animation_length": 280.1,
+			"timeline": {
+				"280.0": [
+					"/execute at @e[type=ender_dragon] run summon warden",
+					"/execute at @e[type=ender_dragon] run summon spider",
+					"/execute at @e[type=ender_dragon] run summon spider",
+					"/execute at @e[type=ender_dragon] run summon spider",
+					"/execute at @e[tag=segundafasesdg,tag=primerafasesdg] run summon dn:darkness_piglin",
+					"/execute at @e[tag=segundafasesdg,tag=primerafasesdg] run summon dn:la_muerte"
+				]
+			}
+		},
+		"animation.tp": {
+			"loop": true,
+			"animation_length": 181.0,
+			"timeline": {
+				"180.0": [
+					"/tp @a @e[type=ender_dragon]"
+				]
+			}
+		},
+		"animation.veneno": {
+			"loop": true,
+			"animation_length": 210.1,
+			"timeline": {
+				"209": [
+					"/effect @a fatal_poison 30 5",
+					"/effect @a darkness 30 1"
+				]
+			}
+		},
+		"animation.explocion": {
+			"loop": true,
+			"animation_length": 226.0,
+			"timeline": {
+				"221.0": [
+					"/title @a title §93",
+					"/title @a actionbar §i§lESCUDO",
+					"/effect @a clear"
+				],
+				"222.0": [
+					"/title @a title §t2",
+					"/effect @a[m=s,tag=segundafases,tag=primerafases] hunger 10 25",
+					"/effect @a[m=s,tag=segundafases,tag=primerafases] wither 10 5",
+					"/effect @a[m=s,tag=segundafases,tag=primerafases] darkness 10 255",
+					"/effect @a[m=s,tag=primerafases] levitation 10 2",
+					"/effect @a[m=s,tag=primerafases] weakness 1200 2"
+				],
+				"223.0": [
+					"/title @a title §11"
+				],
+				"224.3": [
+					"/execute at @r run summon snowball"
+				],
+				"225.0": [
+					"/execute at @r[m=s,tag=segundafases,tag=primerafases] run summon snowball",
+					"/execute at @r[m=s,tag=segundafases,tag=primerafases] run summon snowball",
+					"/execute at @a[m=s,tag=primerafases] run summon snowball",
+					"/execute at @a[m=s,tag=primerafases] run summon snowball"
+				]
+			}
+		},
+		"animation.effects": {
+			"loop": true,
+			"animation_length": 251.0,
+			"timeline": {
+				"250.0": [
+					"/effect @a blindness 15 255",
+					"/effect @a slowness 15 5",
+					"/execute at @a run summon dn:arana_bebe"
+				]
+			}
+		},
+		"animation.knockbac": {
+			"loop": true,
+			"animation_length": 120.1,
+			"timeline": {
+				"100.0": [
+					"/execute at @a[m=s] run summon dn:knockback ^ ^-1 ^"
+				]
+			}
+		}
+	}
+}

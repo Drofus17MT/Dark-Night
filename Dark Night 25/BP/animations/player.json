@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"animations": {
+		"animation.comandos": {
+			"loop": true,
+			"animation_length": 0.1,
+			"timeline": {
+				"0.0": [
+					"/function block_effects"
+				]
+			}
+		},
+		"animation.slots": {
+			"loop": true,
+			"animation_length": 0.5,
+			"timeline": {
+				"0.0": [
+					"/execute as @s[hasitem={item=dn:protector_de_slots,quantity=0}] run function slot_block",
+					"/execute as @s[hasitem={item=dn:protector_de_slots,quantity=1}] run clear @s dn:slot_block",
+					"/execute as @s[hasitem={item=dn:reliquia_de_magma,quantity=1}] run effect @s resistance 15 1 true",
+					"/execute as @s[hasitem={item=dn:reliquia_de_magma,quantity=1}] run effect @s fire_resistance 15 0 true"
+				]
+			}
+		}
+	}
+}

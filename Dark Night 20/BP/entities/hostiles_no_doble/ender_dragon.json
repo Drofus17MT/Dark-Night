@@ -1,0 +1,212 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:ender_dragon",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "animations": {
+        "dragon_inicio": "controller.animation.dragon_inicio",
+        "dragon_tercera": "controller.animation.dragon_tercera",
+        "dragon_segunda": "controller.animation.dragon_segunda",
+        "dragon_primera": "controller.animation.dragon_primera",
+        "dragon_extra_xd": "controller.animation.dragon_extra_xd",
+        "dragon_fin": "controller.animation.dragon_fin",
+        "trueno": "animation.trueno",
+        "warden_arana": "animation.warden_arana",
+        "tp": "animation.tp",
+        "veneno": "animation.veneno",
+        "explocion": "animation.explocion",
+        "effects": "animation.effects",
+        "knockbac": "animation.knockbac"
+      },
+      "scripts": {
+        "animate": [
+          "dragon_inicio",
+          "dragon_tercera",
+          "dragon_segunda",
+          "dragon_primera",
+          "dragon_extra_xd",
+          "dragon_fin",
+          "trueno",
+          "warden_arana",
+          "tp",
+          "veneno",
+          "explocion",
+          "effects",
+          "knockbac"
+        ]
+      }
+    },
+    "component_groups": {
+      "dragon_sitting": {
+        "minecraft:behavior.dragonlanding": {
+          "priority": 0
+        },
+        "minecraft:behavior.dragonflaming": {
+          "priority": 1
+        },
+        "minecraft:behavior.dragonscanning": {
+          "priority": 2
+        }
+      },
+      "dragon_flying": {
+        "minecraft:behavior.dragontakeoff": {
+          "priority": 0
+        },
+        "minecraft:behavior.dragonchargeplayer": {
+          "priority": 1
+        },
+        "minecraft:behavior.dragonstrafeplayer": {
+          "priority": 2
+        },
+        "minecraft:behavior.dragonholdingpattern": {
+          "priority": 3
+        },
+        "minecraft:shooter": {
+          "type": "dragonfireball",
+          "def": "minecraft:dragon_fireball"
+        }
+      },
+      "dragon_death": {
+        "minecraft:behavior.dragondeath": {
+          "priority": 0
+        }
+      }
+    },
+    "components": {
+      "minecraft:behavior.ranged_attack": {
+        "priority": 3,
+        "burst_shots": 2,
+        "burst_interval": 0.2
+      },
+      "minecraft:mob_effect": {
+        "effect_range": 10,
+        "mob_effect": "fatal_poison",
+        "effect_time": 25,
+        "cooldown_time": 1,
+        "entity_filter": {
+          "test": "is_family",
+          "subject": "other",
+          "value": "player"
+        }
+      },
+      "minecraft:break_blocks": {
+        "breakable_blocks": [
+          "obsidian",
+          "ender_chest"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:type_family": {
+        "family": [
+          "dragon",
+          "mob"
+        ]
+      },
+      "minecraft:health": {
+        "value": 4000,
+        "max": 4000
+      },
+      "minecraft:boss": {
+        "should_darken_sky": false,
+        "hud_range": 125,
+        "name": "§l§6THE §8DARK §1BEAST"
+      },
+      "minecraft:collision_box": {
+        "width": 13,
+        "height": 4
+      },
+      "minecraft:movement": {
+        "value": 0.4
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:flying_speed": {
+        "value": 0.6
+      },
+      "minecraft:attack": {
+        "damage": 20,
+        "effect_name": "darkness",
+        "effect_duration": 12
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      },
+      "minecraft:on_start_landing": {
+        "event": "minecraft:start_land",
+        "target": "self"
+      },
+      "minecraft:on_start_takeoff": {
+        "event": "minecraft:start_fly",
+        "target": "self"
+      },
+      "minecraft:on_death": {
+        "event": "minecraft:start_death",
+        "target": "self"
+      },
+      "minecraft:persistent": {},
+      "minecraft:physics": {
+        "has_gravity": false,
+        "has_collision": false
+      },
+      "minecraft:game_event_movement_tracking": {
+        "emit_flap": true
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "remove": {},
+        "add": {
+          "component_groups": [
+            "dragon_flying"
+          ]
+        }
+      },
+      "minecraft:start_land": {
+        "remove": {
+          "component_groups": [
+            "dragon_flying"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "dragon_sitting"
+          ]
+        }
+      },
+      "minecraft:start_fly": {
+        "remove": {
+          "component_groups": [
+            "dragon_sitting"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "dragon_flying"
+          ]
+        }
+      },
+      "minecraft:start_death": {
+        "remove": {
+          "component_groups": [
+            "dragon_sitting",
+            "dragon_flying"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "dragon_death"
+          ]
+        }
+      }
+    }
+  }
+}

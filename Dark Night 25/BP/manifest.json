@@ -1,0 +1,83 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"drofusmt"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.13"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "Dark Night 25",
+		"description": "",
+		"min_engine_version": [
+			1,
+			20,
+			40
+		],
+		"uuid": "06fa3cc0-ebb0-48a8-8a38-83a7b5edc8c0",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "77a1cd78-d0bc-4f78-89f0-0953a8addcff",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "df81f716-6af8-42c4-abf5-b48add1e3583",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "bafc4fe0-1c3f-4a85-a0aa-84eda56bf0ae",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-admin",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-net",
+			"version": "1.0.0-beta"
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dn:knockback",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"dn:knockback": {
+				"minecraft:behavior.knockback_roar": {
+					"priority": 1,
+					"duration": 1,
+					"attack_time": 0.05,
+					"knockback_damage": 5,
+					"knockback_strength": 16,
+					"knockback_range": 1.5,
+					"knockback_filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "player"
+					},
+					"damage_filters": {
+						"test": "is_family",
+						"subject": "other",
+						"value": "player"
+					},
+					"on_roar_end": {
+						"event": "dn:despawn"
+					},
+					"cooldown_time": 0.1
+				}
+			},
+			"dn:despawn": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.31,
+				"height": 0.31
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"dn:knockback"
+					]
+				}
+			},
+			"dn:despawn": {
+				"add": {
+					"component_groups": [
+						"dn:despawn"
+					]
+				}
+			}
+		}
+	}
+}

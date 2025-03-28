@@ -1,0 +1,148 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dn:la_muerte",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"animations": {
+				"phantom_la_muerte": "animation.phantom_la_muerte"
+			},
+			"scripts": {
+				"animate": [
+					"phantom_la_muerte"
+				]
+			}
+		},
+		"component_groups": {
+			"dn:doubled_mob": {
+				"minecraft:spawn_entity": {
+					"entities": [
+						{
+							"spawn_entity": "dn:la_muerte",
+							"single_use": true,
+							"num_to_spawn": 2,
+							"min_wait_time": 0,
+							"max_wait_time": 0
+						}
+					]
+				}
+			}
+		},
+		"components": {
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 + (query.equipment_count * Math.Random(1,3)) : 0"
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": -1,
+				"inhale_time": 3.75,
+				"generates_bubbles": false,
+				"breathes_solids": true
+			},
+			"minecraft:nameable": {},
+			"minecraft:loot": {
+				"table": "loot_tables/armor_pechera.json"
+			},
+			"minecraft:health": {
+				"value": 90,
+				"max": 90
+			},
+			"minecraft:attack": {
+				"damage": 32
+			},
+			"minecraft:area_attack": {
+				"damage_per_tick": 22,
+				"damage_range": 4,
+				"entity_filter": {
+					"all_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						}
+					]
+				}
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:movement": {
+				"value": 1.0
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:fire_immune": {},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.charge_attack": {
+				"priority": 4
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 3,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"max_dist": 70
+					}
+				],
+				"must_see": true
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 9,
+				"look_distance": 6.0,
+				"probability": 0.02
+			},
+			"minecraft:behavior.look_at_entity": {
+				"priority": 9,
+				"look_distance": 6.0,
+				"probability": 0.02,
+				"filters": {
+					"test": "is_family",
+					"subject": "other",
+					"value": "mob"
+				}
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:game_event_movement_tracking": {
+				"emit_move": false,
+				"emit_swim": false
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"dn:doubled_mob"
+					]
+				}
+			}
+		}
+	}
+}
