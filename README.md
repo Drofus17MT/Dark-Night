@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="/Images/logo_dn.png" width="300 alt="Logo Dark Night">
+	<img src="https://github.com/user-attachments/assets/76a6415e-24a9-4fc7-a54b-9417db410fe8" width="300 alt="Logo Dark Night">
 </div>
 
 ## Descripción del Proyecto
