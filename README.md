@@ -14,6 +14,7 @@ Agradesco tu interés en colaborar con Dark Night. Si deseas contribuir en el de
 > ### Cómo Contribuir
 > - Comunícate con nosotros a través de mensajes directos en Discord preferiblemente el de drofusmt
 > - Comparte propuestas concretas para mejorar la funcionalidad del addon
+> 	- [(Todas propuestas se les dara creditos en la parte de "Personas que colaboraron")](#personas-que-colaboraron)
 > - Reporta bugs o problemas que encuentres durante el uso
 >
 > Todas las contribuciones serán evaluadas y, de ser aprobadas, se incluirán con los créditos correspondientes.
@@ -68,218 +69,232 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 
 
 ## [**Día 0**](#Cambios)
-```dif
+```
 ### Extra
 - Los Vindicadores y Ravagers obtienen efectos de Fuerza II y Resistencia II durante la noche
-
 - Los Creepers se transforman en su variante eléctrica al anochecer
-
+- El Nether deshabilitado
+- Eliminación de aldeanos zombificados
+- La muerte de un jugador desencadena el anochecer instantáneo
 - El consumo de carne cruda o podrida aplica efectos negativos:
 	- Ceguera
 	- Lentitud
 	- Náuseas
-
-- El Nether deshabilitado
-
-- Eliminación de aldeanos zombificados
-
-- La muerte de un jugador desencadena el anochecer instantáneo
 ```
 
 ## [**Día 5**](#Cambios)
-```dif
- ### Mobs
- - **Wither Skeleton Guerrero**
-	- **Salud**: 128 corazones
-	- **Daño**: 34 de daño
+```
+### Mobs
+- **Wither Skeleton Guerrero**
+	- **Salud**: 128
+	- **Daño**: 34
 	- **Spawn**: Fortalezas del Nether (Poca probabilidad)
 	- **Equipamiento**: Armadura completa de Netherite
 	- **Loot**: Light Sword
 
- - **Light Sword** (Espada de Luz)
-	- **Daño Base**: 12 puntos
-	- **Habilidad Especial**: Otorga Visión Nocturna
+### Items
+- **Light Sword** (Espada de Luz)
+	- **Daño**: 12
 	- **Durabilidad**: Superior a la Netherita estándar
 
- ### Extra
- - Los proyectiles del ghast ahora tiene power 5 daño 85
-
-- Los **Zombie Pigmen** siempre sera hostil por defecto
-
-- Los **Blazes** Daño incrementado **12** puntos más
-
-- Los **Piglin Brutes** estaran equipados con armadura completa de Netherita
-
+### Extra
+- Los proyectiles del ghast ahora tiene power 5 daño 85
+- Los Zombie Pigmen siempre sera hostil por defecto
+- Los Blazes Daño incrementado 12 puntos más
+- Los Piglin Brutes estaran equipados con armadura completa de Netherita
 - El Nether esta Habilitado
-
 - Los cerdos se convierten en Zombie Pigmen
 ```
 
 ## [**Día 10**](#Cambios)
-```dif
-> ### Mobs
-> - ### La Araña Reina
->	- **Salud**: 160 corazones
->	- **Daño**: 40 de daño
->	- **Veñpcodad**: 0.3 de velodidad
->	- **Spawn**: Meseta
->	- **Otro**: Cuando muere spawnean 5 Spiders babys
-> 
-> - ### Spider Baby
->	- **Salud**: 10 corazones
->	- **Daño**: 8 de daño
->
-> ### Extra
-> - Los zombies en la noche están full netherite encantado
->
-> - Los creepers ahora explotan al instante
->
-> - Los Skeletos en la noche tienen full diamante
->
-> - Las Arañas normales y de cuevas
-> - Ahora tienen Resistencia 5
-> - fuerza 8 Velocidad 3 Impulso de salto 3
-> - Cuando golpea a un jugador coloca una telarañas
+```
+ ### Mobs
+ - **La Araña Reina**
+	- **Salud**: 160
+	- **Daño**: 40
+	- **Velocidad**: 0.3 de velodidad
+	- **Spawn**: Meseta
+	- **Otros**: Cuando muere spawnean 5 Spiders babys
+ 
+ - **Spider Baby**
+	- **Salud**: 10
+	- **Daño**: 8
+
+### Extra
+- Los zombies en la noche están full netherite encantado
+- Los creepers ahora explotan al instante
+- Los Skeletos en la noche tienen full diamante
+- Las Arañas normales y de cuevas
+- Ahora tienen Resistencia 5
+- fuerza 8 Velocidad 3 Impulso de salto 3
+- Cuando golpea a un jugador coloca una telarañas
 ```
 
 ## [**Día 15**](#Cambios)
-```dif
-> ## Armadura
-> - **Armadura Égida Luminosa**
->	- Es irrompible ·Te da 5 corazones extra
->	- Te protege un poco mas que la armadura de netherite
-> 
-> ### Mobs
-> - ### Darkness Ravager
->	- Tiene 130 de vida
->	- Hace 40 de daño 
->	- Puede romper bloques todo tipo de bloque menos bloques irrompibles
->	- Spawnea en raids
->	- **Loot: Casco Égido Luminoso**
-> 
-> - ### La Muerte
->	- Tiene 80 de vida
->	- Hace 32 de daño
->	- Puede volar
->	- Puede traspasar bloques
->	- Puede spawnear Fantasmas
->	- Tiene una Guadaña 
->	- **Loot: Pechera Égida Luminosa**
-> 
-> - ### Darkness Piglin
->	- Tiene 80 de vida
->	- Hace 29 de daño
->	- Puede romper bloques del nether
->	- Spawnea en dungeon de piglin
->	- Cuando muere summonea piglin brutes 
->	- Es anti explosiones y fuego
->	- **Loot: Pantalones Égidos Luminosos**
->
-> - ### La Araña Reina
->	- **Salud**: 250 corazones
->	- **Daño**: 40 de daño
->	- **Veñpcodad**: 0.3 de velodidad
->	- **Spawn**: Meseta
->	- **Equipamiento**: Armadura completa de Netherite
->	- **Loot: Botas Égidas Luminosas**
->	- **Otro**: 
->		- Cuando muere spawnean 5 Spiders babys
->		- Es anti explisiones, proyectiles y es inmune al fuego
-> 
->
-> ## Extra 
-> - Los proyectiles de veneno hacen mas daño
-> 
-> - El fuego te hace mas daño
-> 
-> - Aparecen el doble de mobs
 ```
+## Armadura
+- **Armadura Égida Luminosa**
+	- Es irrompible
+	- Te da 5 corazones extra
+	- Te protege un poco mas que la armadura de netherite
+
+### Mobs
+- **Darkness Ravager**
+	- **Salud**: 130a
+	- **Daño**: Hace 40 
+	- **Spawn**:En Raids
+	- **Loot**: Casco Égido Luminoso
+	- **Otros**:
+		- Cada 35 segundos podran romper bloques todo tipo de bloque menos bloques irrompibles
+		- Cuando hace el ataque de empuje este quitara 5x5 bloques arriba suyo
+
+- **La Muerte**
+	- **Salud**: 80
+	- **Daño**: Hace 32
+	- **Loot**: Pechera Égida Luminosa
+	- **Otros**:
+		- Usa una Guadaña
+		- Vuela volar
+		- Traspasar bloques
+		- Cuando el jugador recibe daño tiene 4 probabilidades:
+			- No pasa nada [58%]
+			- Spawnea Phantoms [20%]
+			- La muerte se lo lleva [15%]
+			- Hace que no colicione con bloques [7%]
+
+- **Darkness Piglin**
+	- **Salud**: 80
+	- **Daño**: 29
+	- **Spawn**: Spawnea en Bastion
+	- **Loot**: Pantalones Égidos Luminosos
+	- **Otross**:
+		- Rompe bloques del nether
+		- No le afectan las explosiones y el fuego
+		- Si muere summonea Piglin Brutes
+
+- **La Araña Reina**
+	- **Salud**: 250
+	- **Daño**: 40
+	- **Velocidad**: 0.3 de velodidad
+	- **Spawn**: Meseta
+	- **Equipamiento**: Armadura completa de Netherite
+	- **Loot**: Botas Égidas Luminosas
+	- **Otros**: 
+		- Cuando muere spawnean 5 Spiders babys
+		- Es anti explisiones, proyectiles y es inmune al fuego
+ 
+### Extra 
+- Los proyectiles de veneno hacen mas daño
+- El fuego te hace mas daño
+- Aparecen el doble de mobs
+```
+
 ## [**Día 20**](#Cambios)
+```
+### Mobs Nuevos
+- **Zombie Darkness**
+	- **Salud**: 60
+	- **Daño**: 30
+	- **Otros**: 
+		- Destruye bloques de madera, piedra, bambú y cristal
 
-> - Te ahogas mas rapido
+- **Darkness Skeleton**
+	- **Salud**: 40
+	- **Otros**:
+		- Efectos permanentes: Velocidad III, Resistencia II
+		- Su acro esta encantado con (Power L, Punch XX)
 
-> - Los rayos te hacen mas daño
+- **Darkness Creeper**
+	- **Salud**: 20
+	- **Otros**:
+		- Velocidad de detonación: Superior al Creeper estándar
+		- Radio de explosión: 15 bloques
+		- Efectos de explosión (30 segundos):
+			- Ceguera
+			- Veneno V
+			- Lentitud III
+			- Darkness
+			- Fatiga minera II
 
-> - Ahora los mobs tienen fases Darkness
+- **Darkness Spider**
+	- **Salud**: 25
+	- **Daño**: 17
+	- **Otros**:
+		- Efectos que tendra permanentemente: Velocidad III, Resistencia IV
+		- Efectos al atacar:
+			- Ceguera
+			- Veneno IV
+			- Wither III
+			- Lentitud II
+			- Fatiga minera II
+			- Debilidad II
 
-> - El totem no te da ningun efecto
+- **Darkness Pillager**
+	- **Salud**: 40
+	- Inmunidades: Explosiones y proyectiles
+	- Característica: Proyectiles explosivos
+	- Aparición: Durante las raids
 
--Zombie Darkness
-·Tiene 60 de vida ·Daño 30
-·Puede romper bloques de madera piedra bambu y cristal
+- **Ender Olager**
+	- **Salud**: 40
+	- Habilidades: Teletransportación y proyectiles de bloques del End
+	- Spawn: The End
 
--Darkness Skeleton
-·Tiene 40 de vida ·Tiene Velocidad 3 y Resistencia 2
-·Su arco tiene power 50 y punch 20 
+- **Ender Piglin**
+	- **Salud**: 45 
+	- **Daño**: 26 
+	- **Otross**: Se puede teletransportación
 
--Darkness Creeper
-·Vida 20 ·Su nivel de explosion es de 15
-·Cuando explota te da los efectos de:
--Ceguera 
--Veneno 5
--Lentitud 3
--Darkness
--Fatiga minera 2
-Por 30 segundos
-·Explota un poco mas rapido que un creeper normal
+- **The Dark Beast**
+	- Salud: 4,000 puntos
+	- Hace mas dañoProyectiles de alto daño
 
--Darkness Spider 
-·Tiene 25 de vida ·Hace 17 de daño
-·Cuando te pega te da el efecto de Ceguera Veneno 4 Wither 3 Lentitud 2 Fatiga Minera 2 y Debilodad 2
-·Tiene Velocidad 3 y Resistencia 4
+### Mecánicas del la batalla con el The Dark Beast
 
--Darkness Pillager
-·Tiene 40 de vida ·Es anti explosiones y proyectiles
-·Sus proyectiles explotan
-·Pueden spawnear en raids
+- Teletransportación forzada al centro del End
 
--Todos estos mobs spawnean con un 20% en las noches
+- Rayos periódicos (cada 5 minutos)
+	- Objetivo: Jugador aleatorio
+	- Efectos: Levitación III, Veneno V, Wither III (30 segundos)
 
-> - Nuevo mob
--Ender Ologer
-·Tiene 40 de vida 
-·Dispara proyectiles de bloques de end 
-·Se puede teletransportar
-·Spawnea en el end
+- Invocación de hordas (cada 8 minutos)
+	- 1 Warden
+	- 3 Arañas
 
-> - The Dark Beast
-·Tiene 3,000 de vida 
-·Sus proyectiles Hacen mas daño
+- Spawn de mobs Darkness (cada 12 minutos)
 
-> - ATAQUES
+- Tiene 3 fases las que cambiaran los ataques del The Dark Beast y mejorara a los mobs del end
 
--Cada 5 minutos le cae un rayo a un jugador alazar que te da efectos de levitacion 3 Veneno 5 y wither 3 por 30 segundos
+### Extra
+- El Warden tiene una nueva variante
+	- **Warden The End**
+		- **Salud**: 95
+		- **Daño**: 50
+		- **Velocidad**: 0.56
+		- **Spawn**: The End
+		- **Otross**:
+			- Dispara más rapido
+			- Siempre estara enojado y cambia de target
 
--Cada 8 min Spawnea 1 warden y 3 arañas 
+- El Golem de Nieve tiene una nueva variente
+	- **Empty Snow**
+		- **Salud**: 50
+		- **Daño**: "One Shot"
+		- **Spawn** : The End
+		- **Otros**:
+			- Toeme resistencia II
+			- Este se diferencia por no tener la cabeza de calabaza
+			- Sus proyectiles son explosivos
 
--Cada 12 minutos spawnea un mob Darkness
-
--Cada corto tiempo le hacen tp a todos los jugadores en el centro del end
-
--Cuando rompen un Ender Cristal Spawnea un Creeper
-
--Cuando tiene poco de vida pone agua y lava en el end
-
--Si estan mucho tiempo serca al dragon les dara Veneno 5 y darkness por 30 segundos
-
-
-> - FUNCIONES O MOBS NUEVOS
-
-> - Los wardens tienen 30 de vida pero hacen 50 de daño
-
-> - Spawnean Arañas y Golems de Nieve en el end
-
-> - Los proyectiles de los golem de nieve explotan
-
-> - Los golems de nieve son agresivos
-
-> - Nuevo Mob
--Ender Piglin
-·Tiene 45 de vida Hacen 26 de daño 
-·Se puede teletransportar
+- Spawn natural de arañas normales, arañas de cueva, Empty Snow y con una probabilidad muy baja Warden The End en el End
+- Ahogamiento acelerado
+- El daño flingido por rayos es aumentado
+- Desactivación de efectos del Tótem
+- Probabilidad de spawn nocturno de mobs Darkness: 20%
+```
 
 ## [**Día 25**](#Cambios)
-
+```
 > - Se les bloqueara algunos slots del inventario a los jugadores
 
 > - Protector de Slots
@@ -350,10 +365,10 @@ Corrup Skeleton
 > - Todas las arañas tiene todos los efectos
 
 > - La muerte ya no spawnea
-
+```
 
 ## [**Día 30**](#Cambios)
-
+```
 > - Al tocar el agua te hace daño
 
 > - Ya no se puede conseguir la armord de Dark y la de Light
@@ -455,6 +470,7 @@ Fase 4 Cuando tiene 2000 de vida
 ·A todos los jugadores les spawnea un creeper darkness
 
 ·Al morir el boss todos los jugadores gastan totem y una voz se rie y dice gracias por liberarme
+```
 
-## Colaboradores
+## Personas que "Colaboraron"
 >  - Por ahora nadie...
