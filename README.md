@@ -251,6 +251,8 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 
 ### Mecánicas del la batalla con el The Dark Beast
 
+- Teletransportación forzada al centro del End
+
 - Rayos periódicos (cada 5 minutos)
 	- Objetivo: Jugador aleatorio
 	- Efectos: Levitación III, Veneno V, Wither III (30 segundos)
@@ -260,6 +262,8 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 	- 3 Arañas
 
 - Spawn de mobs Darkness (cada 12 minutos)
+
+- Tiene 3 fases las que cambiaran los ataques del The Dark Beast y mejorara a los mobs del end
 
 ### Extra
 - El Warden tiene una nueva variante
@@ -278,15 +282,13 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 		- **Daño**: "One Shot"
 		- **Spawn** : The End
 		- **Otros**:
-			- Toeme resistencia 2
+			- Toeme resistencia II
 			- Este se diferencia por no tener la cabeza de calabaza
 			- Sus proyectiles son explosivos
 
-- Spawn natural de arañas y golems de nieve en el End
-- Teletransportación forzada al centro del End
+- Spawn natural de arañas normales, arañas de cueva, Empty Snow y con una probabilidad muy baja Warden The End en el End
 - Ahogamiento acelerado
 - El daño flingido por rayos es aumentado
-- Sistema de fases Darkness para mobs
 - Desactivación de efectos del Tótem
 - Probabilidad de spawn nocturno de mobs Darkness: 20%
 ```
