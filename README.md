@@ -114,7 +114,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 	- **Daño**: 40
 	- **Velocidad**: 0.3 de velodidad
 	- **Spawn**: Meseta
-	- **Otros**: Cuando muere spawnean 5 Spiders babys
+	- **Otro**: Cuando muere spawnean 5 Spiders babys
  
  - **Spider Baby**
 	- **Salud**: 10
@@ -144,7 +144,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 	- **Daño**: Hace 40 
 	- **Spawn**:En Raids
 	- **Loot**: Casco Égido Luminoso
-	- **Otros**:
+	- **Otro**:
 		- Cada 35 segundos podran romper bloques todo tipo de bloque menos bloques irrompibles
 		- Cuando hace el ataque de empuje este quitara 5x5 bloques arriba suyo
 
@@ -152,7 +152,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 	- **Salud**: 80
 	- **Daño**: Hace 32
 	- **Loot**: Pechera Égida Luminosa
-	- **Otros**:
+	- **Otro**:
 		- Usa una Guadaña
 		- Vuela volar
 		- Traspasar bloques
@@ -167,7 +167,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 	- **Daño**: 29
 	- **Spawn**: Spawnea en Bastion
 	- **Loot**: Pantalones Égidos Luminosos
-	- **Otross**:
+	- **Otro**:
 		- Rompe bloques del nether
 		- No le afectan las explosiones y el fuego
 		- Si muere summonea Piglin Brutes
@@ -179,7 +179,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 	- **Spawn**: Meseta
 	- **Equipamiento**: Armadura completa de Netherite
 	- **Loot**: Botas Égidas Luminosas
-	- **Otros**: 
+	- **Otro**: 
 		- Cuando muere spawnean 5 Spiders babys
 		- Es anti explisiones, proyectiles y es inmune al fuego
  
@@ -191,22 +191,22 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 
 ## [**Día 20**](#Cambios)
 ```
-### Mobs Nuevos
+### Mobs
 - **Zombie Darkness**
 	- **Salud**: 60
 	- **Daño**: 30
-	- **Otros**: 
+	- **Otro**: 
 		- Destruye bloques de madera, piedra, bambú y cristal
 
 - **Darkness Skeleton**
 	- **Salud**: 40
-	- **Otros**:
+	- **Otro**:
 		- Efectos permanentes: Velocidad III, Resistencia II
 		- Su acro esta encantado con (Power L, Punch XX)
 
 - **Darkness Creeper**
 	- **Salud**: 20
-	- **Otros**:
+	- **Otro**:
 		- Velocidad de detonación: Superior al Creeper estándar
 		- Radio de explosión: 15 bloques
 		- Efectos de explosión (30 segundos):
@@ -219,7 +219,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 - **Darkness Spider**
 	- **Salud**: 25
 	- **Daño**: 17
-	- **Otros**:
+	- **Otro**:
 		- Efectos que tendra permanentemente: Velocidad III, Resistencia IV
 		- Efectos al atacar:
 			- Ceguera
@@ -243,7 +243,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 - **Ender Piglin**
 	- **Salud**: 45 
 	- **Daño**: 26 
-	- **Otross**: Se puede teletransportación
+	- **Otro**: Se puede teletransportación
 
 - **The Dark Beast**
 	- Salud: 4,000 puntos
@@ -272,7 +272,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 		- **Daño**: 50
 		- **Velocidad**: 0.56
 		- **Spawn**: The End
-		- **Otross**:
+		- **Otro**:
 			- Dispara más rapido
 			- Siempre estara enojado y cambia de target
 
@@ -281,7 +281,7 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 		- **Salud**: 50
 		- **Daño**: "One Shot"
 		- **Spawn** : The End
-		- **Otros**:
+		- **Otro**:
 			- Toeme resistencia II
 			- Este se diferencia por no tener la cabeza de calabaza
 			- Sus proyectiles son explosivos
@@ -295,182 +295,165 @@ Todo el contenido se comparte con el consentimiento explícito del creador origi
 
 ## [**Día 25**](#Cambios)
 ```
-> - Se les bloqueara algunos slots del inventario a los jugadores
+### Mobs
+- **Shulker Darkness**
+	- **Salud**: 185
+	- **Daño**: 50
+	- **Spawn**: Overworld 40% / The End 85%
+	- **Loot**: De 0 a 6 Fragmento del Casco Darkness
+	- **Otro**:
+		- Se teletrasporta
+		- Sus proyectiles dan los efectos de:
+			- Darkness 30 segundos
+			- Debilidad 2 por 10 segundos
+			- Levitacion 3 por 3 segundos
+			- Lentityd 2 por 30 segunos
 
-> - Protector de Slots
--Se consigue con un crafteo
--Elimina los slots bloqueados
+- Zombies Darkness
+	- **Loot**: De 2 a 6 Fragmentos de Pechera Darkness
 
-> - Reliquia de Magma 
--Cuando la tiene en el inventario le da el efecto de resistencia 2 y resistencia al fuego
--Se consigue por un crafteo
+- Creeper Darkness
+	- **Loot**: De 2 a 5 Fragmentos de los Pantalones Darkness
 
--Los jugadores pierden 5 contenedores de vida
+- Bruja Darkness
+	- **Salud**: 148
+	- **Daño**: 45 de daño
+	- **Sapwn**: Overworld 30%
+	- **Loot**: De 3 a 5 Fragmentos de las Botas Darkness 
+	- **Otro**: 
+		- Lanza pociones en circulos rapidamente cuando tiene 74 de vida 
+		- Las pociones que lanza son de:
+			- Daño instantaneo 5
+			- Veneno 8 por 10 segundos
+			- Lentitud 4 por 30 segundos
+			- Debilidad 3 por 1 minuto
+			- Le da el efecto Darkness cuando un jugador esta cerca de un radio de 10 bloques
+			- Es anti proyectiles
 
-> - Nueva Armord
--Darkness Armord
-·Es irrompible ·Te da 15 contenedores de vida más
-·Tiene la misma resistencia que la Armord Of light
-·Se craftea cada pieza con sus propios fragmentos
+- **Terror**
+	- **Salud**: 20
+	- **Daño**: 60
+	- **Spawn**: Overworld / The end
+	- **Loot**: Light Scale 25%
+	- **Otro**:
+		- Puede romper todo tipo de bloques menos la obsidiana y bloques irrompibles
+		- Cuando detecta a un jugador le hace Screamer
+		- Puede spawnear en el overworld y en el end
+		- Tiene los efectos de:
+		Velocidad 5
+		Resistencia 5
 
-> - Nuevos mobs
--Shulker Darkness
-·Tiene 186 de vida ·Puede teletransportarse
-·Sus proyectiles dan  los efectos de Darkness por 30 segundos, Debilidad 2 por 10 segundos, Levitacion 3 por 3 segundos, Lentitud 2 por 30 segundos
-·Spawnea en el end por 85% y en el overworld por 40%
-·Dropea el Fragmento del Casco Darkness puede dropear 0 a 6 fragmentos
+### Items
+- **Protector de Slots**
+	-Se consigue con un crafteo
+	-Elimina los slots bloqueados
 
--Bruja Darkness
-·Tiene 148 de vida ·Hace 45 de daño
-·Lanza pociones en circulos rapidamente cuando tiene 74 de vida 
-·Las pociones que lanza son Daño instantaneo 5, Veneno 8 por 10 segundos, Lentitud 4 por 30 segundos, Debilidad 3 por 1 minuto
-·Le da el efecto Darkness cuando un jugador esta serca de un radio de 10 bloques
-·Es anti proyectiles 
-·Spawnea en el overworld con un 30% y tambien spawnea en los pantanos con un 70%
-·Dropea los fragmentos de botas Darkness puede dropear 3 a 5 fragmentos
+- **Reliquia de Magma** 
+	-Cuando la tiene en el inventario le da el efecto de resistencia 2 y resistencia al fuego
+	-Se consigue por un crafteo
 
--Los Zombies Darkness dropean los fragmentos de pechera Darkness puede dropear 2 a 6 fragmentos 
--Los Creeper Darkness dropean los fragmentos de pantalones Darkness puede dropear 2 a 5 fragmentos
+- **Light Scale**
+	- **Daño**: 18
+	- irrompible
+	- Da el efecto de Vision Nocturna y quita los efectos de Darkness y Ceguera
 
-> - Nuevo item
--Light Scale
-·Hace 18 de daño ·Es irrompible
-·Da el efecto de vision nocturna y quita los efectos de Darkness y Ceguera
+### Armor
+- **Darkness Armord**
+	- Es irrompible
+	- Te da 15 contenedores de vida más
+	- Tiene la misma resistencia que la Armord Of light
+	- Se craftea cada pieza con sus propios fragmentos
 
------------------------------
-> - Nuevo mob
--Terror
-·Tiene 20 de vida
- ·Hace 60 de daño ·puede romper todo tipo de bloques menos la obsidiana y bloques irrompibles
- ·Cuando detecta a un jugador le hace screamer 
-·Puede spawnear en el overworld y en el end
-·Dropea la Light Scale con un 25%
-
-tiene los efectos de velocidad 5 y resistencia 5
-
-> - Los phantoms cuando le pega a un jugador spawnea un creeper 
-
-> - Los escudos tienen menos durabilidad
-
-> - Los gatos, lobos, ajolotes y caballos explotan como un creeper
-
-Corrup Skeleton
--Tiene 80 de vida -Dispara proyectiles de ghats 
--Tiene full netherite
--Cuando muere spawnea 2 creeper 3 arañas 2 zombies y 4 skeletos
--Dropea los fragmentos de botas Darkness puede dropear 3 a 5 fragmentos
-
-> - Los mobs Darkness tienen mas probabilidad de aparecer
-
-> - Todas las arañas tiene todos los efectos
-
-> - La muerte ya no spawnea
+### Extra
+- Los jugadores pierden 5 contenedores de vida
+- Se les bloqueara algunos slots del inventario a los jugadores
+- Al entrar al end tendras 5 corazones
+- Los mobs Darkness tienen mas probabilidad de aparecer
+- Todas las arañas tiene todos los efectos
+- La muerte ya no spawnea
+- Los phantoms cuando le pega a un jugador spawnea un creeper 
+- Los escudos tienen menos durabilidad y tienen probabilidad de fallar
+- Los gatos, lobos, ajolotes y caballos explotan como un creeper
 ```
 
 ## [**Día 30**](#Cambios)
 ```
-> - Al tocar el agua te hace daño
+### Extra
+- El agua hace daño
+- Ya no se puede conseguir la armord de Light, Darkness y Hacha de la Luz
+- Los endermites ahora tiene 50 de daño
+- Los que no esten en el evento final seran baneados
+- La noche sera Permanente
+- Los aldeanos explotan actuan como un Creeper Darkness
+- Las pociones de invisibilidad, Fuerza, Resistencia, Tortuga Maestra, y Regeneracion ya no existen
+- Al romper un bloque de cualquier mineral ahi una probabilidad del 75% de que spawne una araña
+- Las Ender Pearl son un poco mas lentas
+- Los Slime y Magma Cube hacen mas daño y son mas rapidos
+- Los vindicadores spawnean naturalmente
+- Las Arañas Darkness tienen encima un Esqueleto Darkness
+- Los vindicadores tienen fuerza 2 y una hacha de netherite filo 5
+- La armord de Darkness ahora solo da 10 corazones más
 
-> - Ya no se puede conseguir la armord de Dark y la de Light
-
-> - Los endermites ahora tiene 50 de daño
-
-> - Ya no se puede conseguir la hacha de luz
-
-> - Los que no esten en el evento final seran baneados
-
-> - Ahora siempre es de noche
-
-> - Los aldeanos explotan al ver un jugador
-
-> - Las pociones de invisibilidad , Fuerza , Resistencia , Tortuga maestra , y Regeneracion ya no existen
-
-> - Al romper un bloque de cualquier mineral spawnea una araña
-
-> - Las ender pearl son un poco mas lentas
-
-> - Los Slime y Magma cube hacen mas daño y son mas rapidos
-
-> - Los vindicadores spawnean naturalmente
-
-> - Ahora las arañas darkness tienen encima un esqueleto darkness
-
-> - Nuevas structuras se generan en el overword
-
-> - Los vindicadores tienen fuerza 2 y una hacha de netherite filo 5
-
-> - La armord de Dark ahora solo da 10 corazones mas
 -----EVENTO BOSSES FINAL------
+- Manipulator
+	- **Salud**: 5200
+	- Un boss que es un cerebro gigante con tentaculos
+	- Cada poco tiempo le da todos los efetos negativos por 30 segundos a todos los jugadores
+	- Les da ceguera y darkness por 1 minuto 
+	- Puede spawnear vindicadores y arañas de cueva
+	- Les hace temblar la pantalla
+	- Es anti proyectiles y anti explosiones 
+	- No se puede mover
 
-> - Manipulator
--Un boss que es un cerebro gigante con tentaculos
+- Muerte Vacia
+	- Skin de la muerte pero mejorado y con dististos rasgos
+	- **Salud**: 3500
+	- **Daño**: 32
+	- Es anti proyectiles y anti explosiones
+	- Fase 1 
+		- Lanza ender pearl
+		- Puede spawnear vindicadores
+		- Lanza proyectiles de bloque de bedrock cuando el jugador esta lejos
+		- Puede volar
+	- Fase 2 cuando tiene 1750 de vida
+		- Hace forma de Cruz y lanza muchas bolas de fuego
+		- Sus ataques anteriores son mas rapidos
+		- Puede spawnear aldeanos 
+		- Cada sierto tiempo empuja a todos a su alrededor haciendoles mucho daño
+		- Cuando muere se escucha una risa
+		- Se puede multiplicar
 
-·Tiene 2200 de vida
-·Cada poco tiempo le da todos los efetos negativos por 30 segundos a todos los jugadores
-·Les da ceguera y darkness por 1 minuto 
-·Puede spawnear vindicadores y arañas de cueva
-·Les hace temblar la pantalla
-·Es anti proyectiles y anti explosiones 
-·No se puede mover
-
-> - Herobrine
--Un boss con forma de steve con los ojos blancos
-
-·Tiene 3500 de vida
-·Hace 32 de daño
-·Es anti proyectiles y anti explosiones
-Fase 1 
-·Lanza ender pearl
-·Puede spawnear vindicadores
-·Lanza proyectiles de bloque de bedrock cuando el jugador esta lejos
-·Puede volar
-Fase 2 cuando tiene 1750 de vida
-·Hace forma de Cruz y lanza muchas bolas de fuego
-·Sus ataques anteriores son mas rapidos
-·Puede spawnear aldeanos 
-·Cada sierto tiempo empuja a todos a su alrededor haciendoles mucho daño
-·Cuando muere se escucha una risa
-·Se puede multiplicar
-> - THE DARKNESS
--Es un boss gigante Fuerte y Oscuro con una Armadura dañada y oscura
-·Tiene 8000 de vida
-·Hace 60 de daño
-·Es anti explosiones y anti proyectiles
-·No se mueve
-
--Fase 1 cuando tiene 8000 de vida
-·Se escucha una risa
-·Lanza proyectiles de bloque de bedrock
-·Les hace tp a todos los jugadores diciendo no escapes
-·Puede lanzar proyectiles Darkness
-·Spawnea 3 Vindicadores a todos
-
--Fase 2 Cuando tiene 6000 de vida
-·Les da el efecto darkness y una voz dice mueran mortales
-·Cada sierto tiempo empuja a todos alrededor que hace one shot
-·Lanza rayos que les da levitacion 5 veneno 8 lentitud 3 y darkness
-
--Fase 3 Cuando tiene 4000 de vida
-·Le da veneno 8 y darkness y una voz dice Me estoy empezando a enojar
-·Golpea el suelo 3 veces que un area de 30 bloques gastan totem cada vez que golpee el suelo
-·Lanza proyectiles supernova 
-·A un jugador alazar le spawnea un Corrup Esqueleton 
-·A un jugador alazar le spawnea un piglin darkness
-·Spawnea 5 terrors
-
-Fase 4 Cuando tiene 2000 de vida
-·Les da todos los efectos negativos por 1 minuto y una voz dice Ya me arte de todos ustedes
-
-·Cada 3 minutos todos los jugadores gastan 1 totem
-
-·Spawnea una araña reina
-
-·A un jugador alazar spawnea un una araña darkness
-
-·A todos los jugadores les spawnea un creeper darkness
-
-·Al morir el boss todos los jugadores gastan totem y una voz se rie y dice gracias por liberarme
+- THE DARKNESS
+	-Es un boss gigante Fuerte y Oscuro con una Armadura dañada y oscura
+	- Tiene 8000 de vida
+	- Hace 60 de daño
+	- Es anti explosiones y anti proyectiles
+	- No se mueve
+	- Fase 1 cuando tiene 8000 de vida
+		- Se escucha una risa
+		- Lanza proyectiles de bloque de bedrock
+		- Les hace tp a todos los jugadores diciendo no escapes
+		- Puede lanzar proyectiles Darkness
+		- Spawnea 3 Vindicadores a todos
+	- Fase 2 Cuando tiene 6000 de vida
+		- Les da el efecto darkness y una voz dice mueran mortales
+		- Cada sierto tiempo empuja a todos alrededor que hace one shot
+		- Lanza rayos que les da levitacion 5 veneno 8 lentitud 3 y darkness
+	-Fase 3 Cuando tiene 4000 de vida
+		- Le da veneno 8 y darkness y una voz dice Me estoy empezando a enojar
+		- Golpea el suelo 3 veces que un area de 30 bloques gastan totem cada vez que golpee el suelo
+		- Lanza proyectiles supernova 
+		- A un jugador alazar le spawnea un Corrup Esqueleton 
+		- A un jugador alazar le spawnea un piglin darkness
+		- Spawnea 5 terrors
+	- Fase 4 Cuando tiene 2000 de vida
+		- Les da todos los efectos negativos por 1 minuto y una voz dice Ya me arte de todos ustedes
+		- Cada 3 minutos todos los jugadores gastan 1 totem
+		- Spawnea una araña reina
+		- A un jugador alazar spawnea un una araña darkness
+		- A todos los jugadores les spawnea un creeper darkness
+		- Al morir el boss todos los jugadores gastan totem y una voz se rie y dice gracias por liberarme
 ```
 
 ## Personas que "Colaboraron"
->  - Por ahora nadie...
+> Lista vacía por el momento. Los colaboradores se agregarán cuando haya contribuciones aprobadas.Proximamente
