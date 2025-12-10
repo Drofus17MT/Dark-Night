@@ -1,0 +1,23 @@
+Cambios dia 10
+
+¬Un nuevo mob 
+-La Araña Reina
+·Tiene 160 de vida ·Hace 40 de daño
+·Cuando muere spawnean 5 Spiders babys
+·Spawnea en Mesetas
+·Tienen velocidad II
+
+¬Un nuevo mob
+-Spider Baby
+·Tienen 10 de vida ·Hacen 8 de daño
+
+¬Los zombies en la noche están full netherite encantado 
+
+¬Los creepers ahora explotan al instante
+
+¬Los Skeletos en la noche tienen full diamante 
+
+¬Las Arañas normales y de cuevas
+Ahora tienen Resistencia 5
+fuerza 8 Velocidad 3 Impulso de salto 3
+Cuando golpea a un jugador coloca una telarañas

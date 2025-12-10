@@ -1,0 +1,83 @@
+Cambios dia 20
+
+¬Te ahogas mas rapido
+
+¬Los rayos te hacen mas daño
+
+¬Ahora los mobs tienen fases Darkness
+
+¬El totem no te da ningun efecto
+
+-Zombie Darkness
+·Tiene 60 de vida ·Daño 30
+·Puede romper bloques de madera piedra bambu y cristal
+
+-Darkness Skeleton
+·Tiene 40 de vida ·Tiene Velocidad 3 y Resistencia 2
+·Su arco tiene power 50 y punch 20 
+
+-Darkness Creeper
+·Vida 20 ·Su nivel de explosion es de 15
+·Cuando explota te da los efectos de:
+-Ceguera 
+-Veneno 5
+-Lentitud 3
+-Darkness
+-Fatiga minera 2
+Por 30 segundos
+·Explota un poco mas rapido que un creeper normal
+
+-Darkness Spider 
+·Tiene 25 de vida ·Hace 17 de daño
+·Cuando te pega te da el efecto de Ceguera Veneno 4 Wither 3 Lentitud 2 Fatiga Minera 2 y Debilodad 2
+·Tiene Velocidad 3 y Resistencia 4
+
+-Darkness Pillager
+·Tiene 40 de vida ·Es anti explosiones y proyectiles
+·Sus proyectiles explotan
+·Pueden spawnear en raids
+
+-Todos estos mobs spawnean con un 20% en las noches
+
+¬Nuevo mob
+-Ender Ologer
+·Tiene 40 de vida 
+·Dispara proyectiles de bloques de end 
+·Se puede teletransportar
+·Spawnea en el end
+
+¬The Dark Beast
+·Tiene 3,000 de vida 
+·Sus proyectiles Hacen mas daño
+
+¬ATAQUES
+
+-Cada 5 minutos le cae un rayo a un jugador alazar que te da efectos de levitacion 3 Veneno 5 y wither 3 por 30 segundos
+
+-Cada 8 min Spawnea 1 warden y 3 arañas 
+
+-Cada 12 minutos spawnea un mob Darkness
+
+-Cada corto tiempo le hacen tp a todos los jugadores en el centro del end
+
+-Cuando rompen un Ender Cristal Spawnea un Creeper
+
+-Cuando tiene poco de vida pone agua y lava en el end
+
+-Si estan mucho tiempo serca al dragon les dara Veneno 5 y darkness por 30 segundos
+
+
+¬FUNCIONES O MOBS NUEVOS
+
+¬Los wardens tienen 30 de vida pero hacen 50 de daño
+
+¬Spawnean Arañas y Golems de Nieve en el end
+
+¬Los proyectiles de los golem de nieve explotan
+
+¬Los golems de nieve son agresivos
+
+¬Nuevo Mob
+-Ender Piglin
+·Tiene 45 de vida Hacen 26 de daño 
+·Se puede teletransportar

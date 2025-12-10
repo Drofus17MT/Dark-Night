@@ -1,0 +1,24 @@
+Cambios dia 5
+
+¬Un nuevo mob
+-Wither Skeleton Guerrero
+·Tiene 128 de vida ·Hace 34 de daño ·Spawnea en la fortalezas con una baja probabilidad 
+·Dropea la nueva espada 
+·Tiene full netherite 
+
+¬Una nueva Espada
+-Light Sword
+·Hace 12 de daño ·Puede dar vision nocturna
+·Tiene un poco mas de durabilidad que una espada de netherite
+
+¬Los Ghast su proyectil es mas poderoso
+
+¬Los zombie pigman son agresivos
+
+¬Los blaze hacen mas daño 
+
+¬Los cerdos ahora son Zombie pigman
+
+¬Los piglin brutos tienen full netherite
+
+¬El nether esta abierto

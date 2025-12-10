@@ -1,0 +1,41 @@
+Cambios dia 15
+
+¬Una nueva armadura  
+-Armord of Light
+·Es irrompible ·Te da 5 corazones extra
+·Te protege un poco mas que la armadura de netherite
+
+¬Un nuevo mob 
+-La Muerte
+·Tiene 80 de vida ·Hace 32 de daño
+·Puede volar ·Puede traspasar bloques
+·Puede spawnear Fantasmas
+·Tiene una Guadaña 
+·Dropea La pechera de luz
+
+¬Nuevo Mob
+-Darkness Piglin
+·Tiene 80 de vida ·Hace 29 de daño
+·Puede romper bloques del nether
+·Spawnea en dungeon de piglin
+·Cuando muere summonea piglin brutes 
+·Es anti explosiones y fuego
+·dropea los pantalones de luz
+
+·Darkness Ravager
+
+·Tiene 130 de vida ·Hace 40 de daño 
+·Puede romper bloques todo tipo de bloque menos bloques irrompibles
+·Spawnea en raids
+·Da el Casco de luz
+
+·Las arañas reinas ahora tienen 250 de vida 
+·hacen 40 de daño 
+·es anti explosiones y proyectiles ·Tiene el efecto resistencia al fuego
+·Dropean las botas de luz
+
+·Los proyectiles de veneno hacen mas daño
+
+·El fuego te hace mas daño
+
+¬Aparecen el doble de mobs
