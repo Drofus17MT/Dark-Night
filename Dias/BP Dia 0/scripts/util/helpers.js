@@ -1,0 +1,1 @@
+import{system,world}from"@minecraft/server";export function delay(o){return new Promise((r=>system.runTimeout(r,o)))}export function playSoundForAll(o,r,t){for(const e of world.getPlayers())try{e.playSound(o,{pitch:r,volume:t})}catch{try{e.playSound(o,r,t)}catch{}}}
