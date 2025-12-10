@@ -1,0 +1,45 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "dn:wither_skeletor_guerrero",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_underground": {},
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:chiseled_nether_bricks",
+          "minecraft:cracked_nether_bricks",
+          "minecraft:nether_brick",
+          "minecraft:nether_brick_stairs",
+          "minecraft:nether_brick_fence"
+        ],
+        "minecraft:spawns_on_block_prevented_filter": [
+          "minecraft:nether_wart_block",
+          "minecraft:shroomlight",
+          "minecraft:netherack"
+        ],
+        "minecraft:difficulty_filter": {
+          "min": "peaceful",
+          "max": "hard"
+        },
+        "minecraft:weight": {
+          "default": 50
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 2
+        },
+        "minecraft:density_limit": {
+          "surface": 3
+        },
+        "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "nether"
+        }
+      }
+    ]
+  }
+}

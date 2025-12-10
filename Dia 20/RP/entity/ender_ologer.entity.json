@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dn:ender_ologer",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/ender_ologer"
+			},
+			"geometry": {
+				"default": "geometry.ender_ologer"
+			},
+			"scripts": {
+				"scale": "0.9375",
+				"animate": ["controller_general", "controller_move"]
+			},
+			"animations": {
+				"general": "animation.ender_ologer.general",
+				"casting": "animation.ender_ologer.casting",
+				"look_at_target": "animation.common.look_at_target",
+				"move": "animation.ender_ologer.move",
+				"celebrating": "animation.humanoid.celebrating",
+				"controller_general": "controller.animation.evoker.general",
+				"controller_move": "controller.animation.villager.move"
+			},
+			"particle_effects": {
+				"spell": "minecraft:evoker_spell"
+			},
+			"render_controllers": ["controller.render.evoker"],
+			"spawn_egg": {
+				"base_color": "#3b4263",
+				"overlay_color": "#2a065f"
+			}
+		}
+	}
+}

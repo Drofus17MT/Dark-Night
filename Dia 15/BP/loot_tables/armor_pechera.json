@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "dn:armadura_de_luz_chestplate",
+					"weight": 2
+				}
+			]
+		}
+	]
+}

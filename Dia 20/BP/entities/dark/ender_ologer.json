@@ -1,0 +1,431 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "dn:ender_ologer",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"dn:doubled_mob": {
+				"minecraft:spawn_entity": {
+					"entities": [
+						{
+							"spawn_entity": "dn:ender_ologer",
+							"single_use": true,
+							"num_to_spawn": 2,
+							"min_wait_time": 0,
+							"max_wait_time": 0
+						}
+					]
+				}
+			},
+			"minecraft:celebrate": {
+				"minecraft:behavior.celebrate": {
+					"priority": 5,
+					"celebration_sound": "celebrate",
+					"sound_interval": {
+						"range_min": 2.0,
+						"range_max": 7.0
+					},
+					"jump_interval": {
+						"range_min": 1.0,
+						"range_max": 3.5
+					},
+					"duration": 30.0,
+					"on_celebration_end_event": {
+						"event": "minecraft:stop_celebrating",
+						"target": "self"
+					}
+				}
+			},
+			"minecraft:raid_configuration": {
+				"minecraft:dweller": {
+					"dwelling_type": "village",
+					"dweller_role": "hostile",
+					"update_interval_base": 60,
+					"update_interval_variant": 40,
+					"can_find_poi": false,
+					"can_migrate": true,
+					"first_founding_reward": 0
+				},
+				"minecraft:behavior.move_to_village": {
+					"priority": 6,
+					"speed_multiplier": 0.7
+				},
+				"minecraft:ambient_sound_interval": {
+					"value": 2.0,
+					"range": 4.0,
+					"event_name": "ambient.in.raid"
+				}
+			},
+			"minecraft:raid_persistence": {
+				"minecraft:persistent": {}
+			},
+			"minecraft:raid_despawn": {
+				"minecraft:despawn": {
+					"despawn_from_distance": {}
+				}
+			}
+		},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "projectile",
+						"deals_damage": false
+					},
+					{
+						"cause": "entity_explosion",
+						"deals_damage": false
+					},
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:equip_item": {},
+			"minecraft:shareables": {
+				"items": [
+					{
+						"item": "minecraft:banner:15",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					}
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:experience_reward": {
+				"on_death": "10"
+			},
+			"minecraft:type_family": {
+				"family": [
+					"evocation_illager",
+					"monster",
+					"illager",
+					"mob"
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:nameable": {},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/evocation_illager.json"
+			},
+			"minecraft:health": {
+				"value": 45,
+				"max": 45
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"can_pass_doors": true,
+				"can_open_doors": true,
+				"avoid_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.summon_entity": {
+				"priority": 2,
+				"summon_choices": [
+					{
+						"weight": 2,
+						"cooldown_time": 12.0,
+						"cast_duration": 5.0,
+						"particle_color": "#002A60",
+						"sequence": [
+							{
+								"shape": "circle",
+								"target": "self",
+								"base_delay": 5.0,
+								"num_entities_spawned": 3,
+								"entity_type": "dn:darkness_creeper",
+								"summon_cap": 8,
+								"summon_cap_radius": 16.0,
+								"size": 1.0,
+								"sound_event": "prepare.summon"
+							}
+						]
+					},
+					{
+						"weight": 2,
+						"cooldown_time": 12.0,
+						"cast_duration": 5.0,
+						"particle_color": "#002A60",
+						"sequence": [
+							{
+								"shape": "circle",
+								"target": "self",
+								"base_delay": 5.0,
+								"num_entities_spawned": 3,
+								"entity_type": "dn:darkness_piglin",
+								"summon_cap": 8,
+								"summon_cap_radius": 16.0,
+								"size": 1.0,
+								"sound_event": "prepare.summon"
+							}
+						]
+					},
+					{
+						"weight": 1,
+						"cooldown_time": 12.0,
+						"cast_duration": 5.0,
+						"particle_color": "#002A60",
+						"sequence": [
+							{
+								"shape": "circle",
+								"target": "self",
+								"base_delay": 5.0,
+								"num_entities_spawned": 1,
+								"entity_type": "dn:darkness_ravager",
+								"summon_cap": 8,
+								"summon_cap_radius": 16.0,
+								"size": 1.0,
+								"sound_event": "prepare.summon"
+							}
+						]
+					},
+					{
+						"weight": 2,
+						"cooldown_time": 12.0,
+						"cast_duration": 5.0,
+						"particle_color": "#156363",
+						"sequence": [
+							{
+								"shape": "circle",
+								"target": "self",
+								"base_delay": 5.0,
+								"num_entities_spawned": 3,
+								"entity_type": "dn:darkness_skeleton",
+								"summon_cap": 8,
+								"summon_cap_radius": 16.0,
+								"size": 1.0,
+								"sound_event": "prepare.summon"
+							}
+						]
+					},
+					{
+						"weight": 2,
+						"cooldown_time": 12.0,
+						"cast_duration": 5.0,
+						"particle_color": "#156363",
+						"sequence": [
+							{
+								"shape": "circle",
+								"target": "self",
+								"base_delay": 5.0,
+								"num_entities_spawned": 3,
+								"entity_type": "dn:darkness_spider",
+								"summon_cap": 8,
+								"summon_cap_radius": 16.0,
+								"size": 1.0,
+								"sound_event": "prepare.summon"
+							}
+						]
+					},
+					{
+						"weight": 2,
+						"cooldown_time": 12.0,
+						"cast_duration": 5.0,
+						"particle_color": "#156363",
+						"sequence": [
+							{
+								"shape": "circle",
+								"target": "self",
+								"base_delay": 5.0,
+								"num_entities_spawned": 3,
+								"entity_type": "dn:zombie_darkness",
+								"summon_cap": 8,
+								"summon_cap_radius": 16.0,
+								"size": 1.0,
+								"sound_event": "prepare.summon"
+							}
+						]
+					}
+				]
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 5,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 8,
+						"walk_speed_multiplier": 0.6,
+						"sprint_speed_multiplier": 1.0
+					}
+				]
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 8,
+				"speed_multiplier": 0.6
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							]
+						},
+						"max_dist": 20
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "villager"
+								},
+								{
+									"test": "has_component",
+									"subject": "other",
+									"operator": "!=",
+									"value": "minecraft:is_baby"
+								}
+							]
+						},
+						"max_dist": 20
+					}
+				],
+				"must_see": true
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 9,
+				"look_distance": 3.0,
+				"probability": 1.0
+			},
+			"minecraft:behavior.look_at_entity": {
+				"priority": 10,
+				"look_distance": 8.0,
+				"filters": {
+					"test": "is_family",
+					"subject": "other",
+					"value": "mob"
+				}
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.equip_item": {
+				"priority": 3
+			},
+			"minecraft:behavior.pickup_items": {
+				"priority": 7,
+				"max_dist": 3,
+				"goal_radius": 2,
+				"speed_multiplier": 1.0
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:follow_range": {
+				"value": 64
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"dn:doubled_mob"
+					]
+				}
+			},
+			"minecraft:spawn_for_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_configuration",
+						"minecraft:raid_despawn",
+						"minecraft:raid_persistence"
+					]
+				}
+			},
+			"minecraft:start_celebrating": { // Event must be called exactly this for village to fire it when a raid is lost
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"minecraft:celebrate"
+							]
+						}
+					},
+					{
+						"filters": {
+							"test": "has_nametag",
+							"value": false
+						},
+						"remove": {
+							"component_groups": [
+								"minecraft:raid_persistence"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:stop_celebrating": {
+				"remove": {
+					"component_groups": [
+						"minecraft:celebrate"
+					]
+				}
+			},
+			"minecraft:raid_expired": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "has_nametag",
+							"value": false
+						},
+						"remove": {
+							"component_groups": [
+								"minecraft:raid_persistence"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

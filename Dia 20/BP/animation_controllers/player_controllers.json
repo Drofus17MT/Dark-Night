@@ -1,0 +1,21 @@
+{
+	"format_version": "1.17.30",
+	"animation_controllers": {
+		"controller.animation.inicio": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"inicio": "query.life_time >= 10"
+						}
+					]
+				},
+				"inicio": {
+					"on_entry": [
+						"/function inicio_kit"
+					]
+				}
+			}
+		}
+	}
+}

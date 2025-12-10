@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Dark Night 0",
+		"description": "",
+		"min_engine_version": [
+			1,
+			20,
+			120
+		],
+		"uuid": "4d0d2053-8cd7-488e-b3a7-b2a3108ef689",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "07795abd-56d5-4964-b556-25262a8896c3",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "b751baa9-a9ce-4c9f-b135-f1bacbb1e467",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "5db9245c-b702-4428-bb2a-09f3bc2e955e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.3.0"
+		}
+	]
+}

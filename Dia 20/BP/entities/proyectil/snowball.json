@@ -1,0 +1,184 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:snowball",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:player_snowball": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "filter": "blaze",
+              "damage": 3,
+              "knockback": true
+            },
+            "remove_on_hit": {},
+            "particle_on_hit": {
+              "particle_type": "snowballpoof",
+              "num_particles": 6,
+              "on_entity_hit": true,
+              "on_other_hit": true
+            }
+          },
+          "anchor": 1,
+          "power": 1.5,
+          "gravity": 0.03,
+          "angle_offset": 0.0,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ]
+        },
+        "minecraft:type_family": {
+          "family": [
+            "player"
+          ]
+        }
+      },
+      "minecraft:snow_golem_snowball": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": 70,
+              "knockback": false,
+              "semi_random_diff_damage": false
+            },
+            "definition_event": {
+              "affect_projectile": true,
+              "event_trigger": {
+                "event": "dn:snow_golem_explotion",
+                "target": "self"
+              }
+            }
+          },
+          "power": 2.5,
+          "gravity": 0.03,
+          "anchor": 1,
+          "inertia": 1,
+          "liquid_inertia": 1,
+          "uncertainty_base": 0,
+          "uncertainty_multiplier": 0,
+          "angle_offset": 0.0,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ],
+          "reflect_on_hurt": true,
+          "catch_fire": true
+        },
+        "minecraft:type_family": {
+          "family": [
+            "snowgolem"
+          ]
+        }
+      },
+      "minecraft:snow_golem_exploding": {
+        "minecraft:explode": {
+          "fuse_length": 0,
+          "fuse_lit": true,
+          "power": 8,
+          "causes_fire": false,
+          "fire_affected_by_griefing": false,
+          "destroy_affected_by_griefing": false
+        },
+        "minecraft:type_family": {
+          "family": [
+            "snowgolem"
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 70,
+            "knockback": false,
+            "semi_random_diff_damage": false
+          },
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "dn:snow_golem_explotion",
+              "target": "self"
+            }
+          }
+        },
+        "power": 2.5,
+        "gravity": 0.03,
+        "anchor": 1,
+        "inertia": 1,
+        "liquid_inertia": 1,
+        "uncertainty_base": 0,
+        "uncertainty_multiplier": 0,
+        "angle_offset": 0.0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "reflect_on_hurt": true,
+        "catch_fire": true
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 100.0,
+          "max_dropped_ticks": 7,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "snowgolem"
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:snow_golem_snowball"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:player_snowball"
+              ]
+            }
+          }
+        ]
+      },
+      "dn:snow_golem_explotion": {
+        "add": {
+          "component_groups": [
+            "minecraft:snow_golem_exploding"
+          ]
+        }
+      }
+    }
+  }
+}
