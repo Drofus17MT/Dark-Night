@@ -1,0 +1,1 @@
+{"format_version":"1.8.0","animations":{"animation.light_sword.first_person":{"loop":true,"bones":{"rightitem":{"rotation":[133.46512, 74.78044, -99.35939],"position":[-15, -6, 7],"scale":0.3}}},"animation.light_sword.third_person":{"loop":true,"bones":{"rightitem":{"rotation":[170, 0, 0],"position":[0, 12, -9],"scale":0.3}}}}}

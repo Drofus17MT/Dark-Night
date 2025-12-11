@@ -1,1 +1,1 @@
-powershell -ExecutionPolicy Bypass -File "C:\GitHub\Dark-Night\Dia 0\auto-sync.ps1"
+powershell -ExecutionPolicy Bypass -File "C:\GitHub\Dark-Night\auto-sync.ps1"

@@ -1,6 +1,9 @@
+## Items
+item.dn:light_sword=Light Sword
+
+## Entities
 entity.dn:wither_skeletor_guerrero.name=Wither skeletor guerrero
 item.spawn_egg.entity.dn:wither_skeletor_guerrero.name=Wither skeletor guerrero
-item.dn:light_sword=Light Sword
 entity.dn:arana_bebe.name=arana_bebe
 item.spawn_egg.entity.dn:arana_bebe.name=Araña bebe
 entity.dn:arana_reina.name=Araña reina

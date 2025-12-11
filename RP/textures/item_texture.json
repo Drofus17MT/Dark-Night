@@ -2,19 +2,19 @@
 	"resource_pack_name": "DARK NIGHT",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"dn_light_sword": {
-			"textures": "textures/items/dn_light_sword"
+		"light_sword": {
+			"textures": "textures/items/light_sword"
 		},
-		"dn_armadura_de_luz_helmet": {
+		"armadura_de_luz_helmet": {
 			"textures": "textures/items/armadura_de_luz_helmet"
 		},
-		"dn_armadura_de_luz_chestplate": {
+		"armadura_de_luz_chestplate": {
 			"textures": "textures/items/armadura_de_luz_chestplate"
 		},
-		"dn_armadura_de_luz_leggings": {
+		"armadura_de_luz_leggings": {
 			"textures": "textures/items/armadura_de_luz_leggings"
 		},
-		"dn_armadura_de_luz_boots": {
+		"armadura_de_luz_boots": {
 			"textures": "textures/items/armadura_de_luz_boots"
 		}
 	}
