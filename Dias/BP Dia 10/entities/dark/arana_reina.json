@@ -120,13 +120,13 @@
 		},
 		"events": {
 			"dn:death_reina": {
-				"run_command": {
+				"queue_command": {
 					"command": [
-						"summon dn:arana_bebe ~ ~ ~",
-						"summon dn:arana_bebe ~ ~ ~",
-						"summon dn:arana_bebe ~ ~ ~",
-						"summon dn:arana_bebe ~ ~ ~",
-						"summon dn:arana_bebe ~ ~ ~"
+						"summon cave_spider ~~~~~ spawn_spider_baby",
+						"summon cave_spider ~~~~~ spawn_spider_baby",
+						"summon cave_spider ~~~~~ spawn_spider_baby",
+						"summon cave_spider ~~~~~ spawn_spider_baby",
+						"summon cave_spider ~~~~~ spawn_spider_baby"
 					]
 				}
 			}
