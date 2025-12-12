@@ -1,7 +1,7 @@
 Cambios dia 10
 
 ¬Un nuevo mob 
--La Araña Reina
+✅-La Araña Reina
 ·Tiene 160 de vida ·Hace 40 de daño
 ·Cuando muere spawnean 5 Spiders babys
 ·Spawnea en Mesetas
