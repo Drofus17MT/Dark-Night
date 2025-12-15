@@ -1,1 +1,178 @@
-{"pools":[{"rolls":1,"entries":[{"type":"item","name":"netherite_helmet","weight":255,"functions":[{"function":"looting_enchant","count":{"min":0,"max":4}},{"function":"enchant_random_gear","chance":1}]}]},{"rolls":1,"entries":[{"type":"item","name":"netherite_chestplate","weight":255,"functions":[{"function":"looting_enchant","count":{"min":0,"max":4}},{"function":"enchant_random_gear","chance":1}]}]},{"rolls":1,"entries":[{"type":"item","name":"netherite_leggings","weight":255,"functions":[{"function":"looting_enchant","count":{"min":0,"max":4}},{"function":"enchant_random_gear","chance":1}]}]},{"rolls":1,"entries":[{"type":"item","name":"netherite_boots","weight":255,"functions":[{"function":"looting_enchant","count":{"min":0,"max":4}},{"function":"enchant_random_gear","chance":1}]}]},{"rolls":1,"entries":[{"type":"item","name":"minecraft:trident","weight":255,"functions":[{"function":"looting_enchant","count":{"min":0,"max":3}},{"function":"enchant_random_gear","chance":0.5}]}]},{"rolls":1,"entries":[{"type":"item","name":"minecraft:netherite_spear","weight":1,"functions":[{"function":"looting_enchant","count":{"min":0,"max":5}},{"function":"enchant_random_gear","chance":1}]},{"type":"item","name":"minecraft:netherite_sword","weight":2,"functions":[{"function":"looting_enchant","count":{"min":0,"max":5}},{"function":"enchant_random_gear","chance":1}]},{"type":"item","name":"minecraft:netherite_axe","weight":3,"functions":[{"function":"looting_enchant","count":{"min":0,"max":5}},{"function":"enchant_random_gear","chance":1}]}]}]}
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_helmet",
+                    "weight": 255,
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "enchant_random_gear",
+                            "chance": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_chestplate",
+                    "weight": 255,
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "enchant_random_gear",
+                            "chance": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_leggings",
+                    "weight": 255,
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "enchant_random_gear",
+                            "chance": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_boots",
+                    "weight": 255,
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "enchant_random_gear",
+                            "chance": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:trident",
+                    "weight": 255,
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "enchant_random_gear",
+                            "chance": 0.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_spear",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "enchant_random_gear",
+                            "chance": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "enchant_random_gear",
+                            "chance": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_axe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "enchant_random_gear",
+                            "chance": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

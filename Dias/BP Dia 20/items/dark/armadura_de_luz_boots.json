@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "dn:armadura_de_luz_boots",
+			"identifier": "dn:luz_boots",
 			"category": "equipment"
 		},
 		"components": {
@@ -12,7 +12,7 @@
 				"slot": "armor_feet"
 			},
 			"minecraft:icon": {
-				"texture": "dn_armadura_de_luz_boots"
+				"texture": "dn_luz_boots"
 			},
 			"minecraft:render_offsets": "boots",
 			"minecraft:armor": {

@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "dn:armadura_de_luz_leggings",
+			"identifier": "dn:luz_leggings",
 			"category": "equipment"
 		},
 		"components": {
@@ -12,7 +12,7 @@
 				"slot": "armor_legs"
 			},
 			"minecraft:icon": {
-				"texture": "dn_armadura_de_luz_leggings"
+				"texture": "dn_luz_leggings"
 			},
 			"minecraft:render_offsets": "leggings",
 			"minecraft:armor": {

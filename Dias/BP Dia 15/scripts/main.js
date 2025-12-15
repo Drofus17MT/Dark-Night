@@ -1,1 +1,3 @@
-import"./system/items";import"./system/loops";import"./system/damage";
+import "./system/items";
+import "./system/loops";
+import "./system/damage";

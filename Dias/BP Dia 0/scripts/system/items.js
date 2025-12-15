@@ -1,1 +1,18 @@
-import{EquipmentSlot,world}from"@minecraft/server";world.afterEvents.itemUse.subscribe((async t=>{try{const{itemStack:e,source:n}=t;if("minecraft:totem_of_undying"===e.typeId){const t=n.getComponent("equippable"),o=n.getComponent("inventory")?.container,i=n.selectedSlotIndex,m=t?.getEquipment(EquipmentSlot.Offhand);await null,t.setEquipment(EquipmentSlot.Offhand,e),o.setItem(i,m??void 0)}}catch{}}));
+import { EquipmentSlot, world } from "@minecraft/server";
+
+world.afterEvents.itemUse.subscribe(async (itemUse) => {
+  try {
+    const { itemStack, source } = itemUse;
+    if (itemStack.typeId === "minecraft:totem_of_undying") {
+      const equippable = source.getComponent("equippable");
+      const inventory = source.getComponent("inventory")?.container;
+      const slot = source.selectedSlotIndex;
+      const offHand = equippable?.getEquipment(EquipmentSlot.Offhand);
+
+      await null;
+
+      equippable.setEquipment(EquipmentSlot.Offhand, itemStack);
+      inventory.setItem(slot, offHand ?? undefined);
+    }
+  } catch {}
+});

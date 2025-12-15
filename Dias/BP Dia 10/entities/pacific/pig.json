@@ -1,1 +1,17 @@
-{"format_version":"1.16.0","minecraft:entity":{"description":{"identifier":"minecraft:pig","is_spawnable":true,"is_summonable":true,"is_experimental":false},"components":{"minecraft:transformation":{"into":"zombie_pigman","delay":0}}}}
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "minecraft:pig",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:transformation": {
+                "into": "zombie_pigman",
+                "delay": 0
+            }
+        }
+    }
+}

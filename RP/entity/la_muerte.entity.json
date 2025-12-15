@@ -5,7 +5,7 @@
 			"identifier": "dn:la_muerte",
 			"min_engine_version": "1.8.0",
 			"materials": {
-				"default": "zombie"
+				"default": "entity_alphatest"
 			},
 			"textures": {
 				"default": "textures/entity/la_muerte"

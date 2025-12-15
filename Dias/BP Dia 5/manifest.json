@@ -1,1 +1,54 @@
-{"format_version":2,"header":{"name":"Dark Night 5","description":"","min_engine_version":[1,21,130],"uuid":"20c46e13-0096-4201-91a3-40e6888fbdd0","version":[1,0,0]},"modules":[{"type":"data","uuid":"d50a5836-4717-4b1e-88fc-18451dc7a4bf","version":[1,0,0]},{"type":"script","language":"javascript","uuid":"2fc2a292-7e47-4960-b69d-7a2705bda921","entry":"scripts/main.js","version":[1,0,0]}],"dependencies":[{"uuid":"c34be1fa-1dd2-4ef3-b539-29087591419b","version":[1,0,0]},{"module_name":"@minecraft/server","version":"2.4.0"}]}
+{
+    "format_version": 2,
+    "header": {
+        "name": "Dark Night 5",
+        "description": "",
+        "min_engine_version": [
+            1,
+            21,
+            130
+        ],
+        "uuid": "20c46e13-0096-4201-91a3-40e6888fbdd0",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "d50a5836-4717-4b1e-88fc-18451dc7a4bf",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "2fc2a292-7e47-4960-b69d-7a2705bda921",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "603f9187-b7b0-4b94-9e05-7154cb14058e",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.4.0"
+        }
+    ]
+}

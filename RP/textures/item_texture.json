@@ -5,17 +5,17 @@
 		"light_sword": {
 			"textures": "textures/items/light_sword"
 		},
-		"armadura_de_luz_helmet": {
-			"textures": "textures/items/armadura_de_luz_helmet"
+		"luz_helmet": {
+			"textures": "textures/items/luz_helmet"
 		},
-		"armadura_de_luz_chestplate": {
-			"textures": "textures/items/armadura_de_luz_chestplate"
+		"luz_chestplate": {
+			"textures": "textures/items/luz_chestplate"
 		},
-		"armadura_de_luz_leggings": {
-			"textures": "textures/items/armadura_de_luz_leggings"
+		"luz_leggings": {
+			"textures": "textures/items/luz_leggings"
 		},
-		"armadura_de_luz_boots": {
-			"textures": "textures/items/armadura_de_luz_boots"
+		"luz_boots": {
+			"textures": "textures/items/luz_boots"
 		}
 	}
 }

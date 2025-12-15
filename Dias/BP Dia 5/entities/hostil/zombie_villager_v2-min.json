@@ -1,1 +1,15 @@
-{"format_version":"1.8.0","minecraft:entity":{"description":{"identifier":"minecraft:zombie_villager_v2","is_spawnable":false,"is_summonable":false},"components":{"minecraft:instant_despawn":{"remove_child_entities":true}}}}
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "minecraft:zombie_villager_v2",
+            "is_spawnable": false,
+            "is_summonable": false
+        },
+        "components": {
+            "minecraft:instant_despawn": {
+                "remove_child_entities": true
+            }
+        }
+    }
+}

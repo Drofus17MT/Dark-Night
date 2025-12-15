@@ -277,28 +277,28 @@
 									"subject": "self",
 									"operator": "!=",
 									"domain": "head",
-									"value": "dn:armadura_de_luz_helmet"
+									"value": "dn:luz_helmet"
 								},
 								{
 									"test": "has_equipment",
 									"subject": "self",
 									"operator": "!=",
 									"domain": "torso",
-									"value": "dn:armadura_de_luz_chestplate"
+									"value": "dn:luz_chestplate"
 								},
 								{
 									"test": "has_equipment",
 									"subject": "self",
 									"operator": "!=",
 									"domain": "leg",
-									"value": "dn:armadura_de_luz_leggings"
+									"value": "dn:luz_leggings"
 								},
 								{
 									"test": "has_equipment",
 									"subject": "self",
 									"operator": "!=",
 									"domain": "feet",
-									"value": "dn:armadura_de_luz_boots"
+									"value": "dn:luz_boots"
 								}
 							]
 						},
@@ -312,28 +312,28 @@
 									"subject": "self",
 									"operator": "==",
 									"domain": "head",
-									"value": "dn:armadura_de_luz_helmet"
+									"value": "dn:luz_helmet"
 								},
 								{
 									"test": "has_equipment",
 									"subject": "self",
 									"operator": "==",
 									"domain": "torso",
-									"value": "dn:armadura_de_luz_chestplate"
+									"value": "dn:luz_chestplate"
 								},
 								{
 									"test": "has_equipment",
 									"subject": "self",
 									"operator": "==",
 									"domain": "leg",
-									"value": "dn:armadura_de_luz_leggings"
+									"value": "dn:luz_leggings"
 								},
 								{
 									"test": "has_equipment",
 									"subject": "self",
 									"operator": "==",
 									"domain": "feet",
-									"value": "dn:armadura_de_luz_boots"
+									"value": "dn:luz_boots"
 								}
 							]
 						},

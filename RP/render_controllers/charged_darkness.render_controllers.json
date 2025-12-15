@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.charged_darkness": {
+      "geometry": "Geometry.charged_darkness",
+      "materials": [ { "*": "Material.charged_darkness" } ],
+      "textures": [ "Texture.charged_darkness" ],
+      "overlay_color": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 1.0
+      },
+      "uv_anim": {
+          "offset": [ "(q.is_powered) ? (Math.floor(q.life_time * 20.0) + q.frame_alpha) * 0.005 : 0.0", 
+                      "(q.is_powered) ? (Math.floor(q.life_time * 20.0) + q.frame_alpha) * 0.005 : 0.0" ],
+          "scale": [ 1.0, 1.0 ]
+      },
+      "light_color_multiplier": 0.5,
+      "ignore_lighting" : true
+    }
+  }
+}

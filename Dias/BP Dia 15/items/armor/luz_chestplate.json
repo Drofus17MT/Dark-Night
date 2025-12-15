@@ -1,0 +1,15 @@
+{
+	"format_version":"1.20.80",
+	"minecraft:item":{
+		"description":{
+			"identifier":"dn:luz_chestplate",
+			"menu_category":{"category":"equipment","group":"itemGroup.name.chestplate"}
+		},
+		"components":{
+			"minecraft:max_stack_size":1,
+			"minecraft:enchantable":{"value":9,"slot":"armor_torso"},
+			"minecraft:icon":"luz_chestplate",
+			"minecraft:wearable":{"slot":"slot.armor.chest","protection":10}
+		}
+	}
+}

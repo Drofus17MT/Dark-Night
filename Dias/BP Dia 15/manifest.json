@@ -1,70 +1,54 @@
 {
-	"format_version": 2,
-	"header": {
-		"name": "Dark Night 15",
-		"description": "",
-		"min_engine_version": [
-			1,
-			21,
-			130
-		],
-		"uuid": "e69e4b19-dbe4-4e84-9516-46ee96dbc898",
-		"version": [
-			1,
-			0,
-			0
-		]
-	},
-	"modules": [
-		{
-			"type": "data",
-			"uuid": "4d33c505-e2db-4053-8712-16a2d16e6387",
-			"version": [
-				1,
-				0,
-				0
-			]
-		},
-		{
-			"type": "script",
-			"language": "javascript",
-			"uuid": "3cc5c158-123d-4b81-b032-2528bd0c316e",
-			"entry": "scripts/main.js",
-			"version": [
-				1,
-				0,
-				0
-			]
-		}
-	],
-	"dependencies": [
-		{
-			"uuid": "7c3302cf-6dd9-44b3-b903-5b88d978a927",
-			"version": [
-				1,
-				0,
-				0
-			]
-		},
-		{
-			"module_name": "@minecraft/server",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-gametest",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-ui",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-admin",
-			"version": "1.0.0-beta"
-		},
-		{
-			"module_name": "@minecraft/server-net",
-			"version": "1.0.0-beta"
-		}
-	]
+    "format_version": 2,
+    "header": {
+        "name": "Dark Night 15",
+        "description": "",
+        "min_engine_version": [
+            1,
+            21,
+            130
+        ],
+        "uuid": "e69e4b19-dbe4-4e84-9516-46ee96dbc898",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "4d33c505-e2db-4053-8712-16a2d16e6387",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "b751baa9-a9ce-4c9f-b135-f1bacbb1e467",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "603f9187-b7b0-4b94-9e05-7154cb14058e",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.4.0"
+        }
+    ]
 }
