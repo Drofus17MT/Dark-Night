@@ -8,7 +8,7 @@
       "is_experimental": false
     },
     "component_groups": {
-      "dn:spawn_doubled_mob": {
+      "dn:spawn_doubled": {
         "minecraft:spawn_entity": {
           "entities": [
             {
@@ -595,7 +595,7 @@
                     "minecraft:ranged_equipment",
                     "minecraft:ranged_mode",
                     "minecraft:adult_drowned",
-                    "dn:spawn_doubled_mob"
+                    "dn:spawn_doubled"
                   ]
                 }
               },
@@ -610,7 +610,7 @@
                         "minecraft:melee_equipment",
                         "minecraft:melee_mode",
                         "minecraft:adult_drowned",
-                        "dn:spawn_doubled_mob"
+                        "dn:spawn_doubled"
                       ]
                     }
                   },
@@ -622,7 +622,7 @@
                         "minecraft:melee_equipment",
                         "minecraft:melee_mode",
                         "minecraft:baby_drowned",
-                        "dn:spawn_doubled_mob"
+                        "dn:spawn_doubled"
                       ]
                     }
                   }

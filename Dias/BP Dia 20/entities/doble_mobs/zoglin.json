@@ -7,7 +7,7 @@
       "is_summonable": true
     },
     "component_groups": {
-      "dn:spawn_doubled_mob": {
+      "dn:spawn_doubled": {
         "minecraft:spawn_entity": {
           "entities": [
             {
@@ -257,7 +257,7 @@
       "minecraft:entity_spawned": {
         "add": {
           "component_groups": [
-            "dn:spawn_doubled_mob"
+            "dn:spawn_doubled"
           ]
         },
         "randomize": [

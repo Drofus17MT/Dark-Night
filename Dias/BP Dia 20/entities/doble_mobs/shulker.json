@@ -8,7 +8,7 @@
       "is_experimental": false
     },
     "component_groups": {
-      "dn:spawn_doubled_mob": {
+      "dn:spawn_doubled": {
         "minecraft:spawn_entity": {
           "entities": [
             {
@@ -664,7 +664,7 @@
         "add": {
           "component_groups": [
             "minecraft:shulker_undyed",
-            "dn:spawn_doubled_mob"
+            "dn:spawn_doubled"
           ]
         }
       },

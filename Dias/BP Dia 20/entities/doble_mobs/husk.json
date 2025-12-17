@@ -8,7 +8,7 @@
       "is_experimental": false
     },
     "component_groups": {
-      "dn:spawn_doubled_mob": {
+      "dn:spawn_doubled": {
         "minecraft:spawn_entity": {
           "entities": [
             {
@@ -547,7 +547,7 @@
                 "add": {
                   "component_groups": [
                     "minecraft:zombie_husk_adult",
-                    "dn:spawn_doubled_mob"
+                    "dn:spawn_doubled"
                   ]
                 }
               },
@@ -557,7 +557,7 @@
                 "add": {
                   "component_groups": [
                     "minecraft:zombie_husk_baby",
-                    "dn:spawn_doubled_mob"
+                    "dn:spawn_doubled"
                   ]
                 }
               },
@@ -568,7 +568,7 @@
                   "component_groups": [
                     "minecraft:zombie_husk_baby",
                     "minecraft:zombie_husk_jockey",
-                    "dn:spawn_doubled_mob"
+                    "dn:spawn_doubled"
                   ]
                 }
               }
@@ -581,7 +581,7 @@
                 "add": {
                   "component_groups": [
                     "minecraft:can_break_doors",
-                    "dn:spawn_doubled_mob"
+                    "dn:spawn_doubled"
                   ]
                 }
               },

@@ -8,7 +8,7 @@
       "is_experimental": false
     },
     "component_groups": {
-      "dn:spawn_doubled_mob": {
+      "dn:spawn_doubled": {
         "minecraft:spawn_entity": {
           "entities": [
             {
@@ -729,7 +729,7 @@
                 "remove": {},
                 "add": {
                   "component_groups": [
-                    "dn:spawn_doubled_mob",
+                    "dn:spawn_doubled",
                     "adult"
                   ]
                 }
@@ -739,7 +739,7 @@
                 "remove": {},
                 "add": {
                   "component_groups": [
-                    "dn:spawn_doubled_mob",
+                    "dn:spawn_doubled",
                     "baby"
                   ]
                 }
@@ -749,7 +749,7 @@
                 "remove": {},
                 "add": {
                   "component_groups": [
-                    "dn:spawn_doubled_mob",
+                    "dn:spawn_doubled",
                     "baby",
                     "jockey"
                   ]

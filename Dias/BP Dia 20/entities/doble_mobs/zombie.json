@@ -8,7 +8,7 @@
       "is_experimental": false
     },
     "component_groups": {
-      "dn:spawn_doubled_mob": {
+      "dn:spawn_doubled": {
         "minecraft:spawn_entity": {
           "entities": [
             {
@@ -544,7 +544,7 @@
                 "remove": {},
                 "add": {
                   "component_groups": [
-                    "dn:spawn_doubled_mob",
+                    "dn:spawn_doubled",
                     "minecraft:zombie_adult",
                     "minecraft:can_have_equipment"
                   ]
@@ -555,7 +555,7 @@
                 "remove": {},
                 "add": {
                   "component_groups": [
-                    "dn:spawn_doubled_mob",
+                    "dn:spawn_doubled",
                     "minecraft:zombie_baby",
                     "minecraft:can_have_equipment"
                   ]
@@ -566,7 +566,7 @@
                 "remove": {},
                 "add": {
                   "component_groups": [
-                    "dn:spawn_doubled_mob",
+                    "dn:spawn_doubled",
                     "minecraft:zombie_baby",
                     "minecraft:zombie_jockey",
                     "minecraft:can_have_equipment"

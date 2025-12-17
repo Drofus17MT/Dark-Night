@@ -168,7 +168,7 @@
       "minecraft:entity_spawned": {
         "add": {
           "component_groups": [
-            "dn:spawn_doubled_mob",
+            "dn:spawn_doubled",
             "mode_switcher"
           ]
         }

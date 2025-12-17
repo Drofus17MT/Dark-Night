@@ -8,7 +8,7 @@
       "is_experimental": false
     },
     "component_groups": {
-      "dn:spawn_doubled_mob": {
+      "dn:spawn_doubled": {
         "minecraft:spawn_entity": {
           "entities": [
             {
@@ -157,7 +157,7 @@
         "add": {
           "component_groups": [
             "minecraft:silverfish_calm",
-            "dn:spawn_doubled_mob"
+            "dn:spawn_doubled"
           ]
         }
       },

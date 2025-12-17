@@ -1,4 +1,4 @@
-﻿$SOURCE_BP = "C:\GitHub\Dark-Night\Dias\BP Dia 15"
+﻿$SOURCE_BP = "C:\GitHub\Dark-Night\Dias\BP Dia 20"
 $TARGET_BP = "C:\Users\david\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs\Dark Night BP"
 
 $SOURCE_RP = "C:\GitHub\Dark-Night\RP"
