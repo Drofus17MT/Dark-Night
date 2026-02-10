@@ -13,10 +13,6 @@
 				"default": "geometry.darkness_ravager"
 			},
 			"render_controllers": ["controller.render.default"],
-			"spawn_egg": {
-				"base_color": "#000855",
-				"overlay_color": "#31004a"
-			},
 			"animations": {
 				"walk": "animation.darkness_ravager.walk",
 				"look_at_target": "animation.common.look_at_target",
